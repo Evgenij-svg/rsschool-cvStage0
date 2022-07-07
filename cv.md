@@ -1,7 +1,16 @@
-# Моё cv
+# Evgenij Deshkevich
+## Contacts
+* __Location:__ Minsk,Belarus
+* __Phone:__ +3759482897
+* __Email:__ deshkevich.evgenij@gmail.com
+* __Github:__ Evgenij-svg
 
-[Это ссылка Мой гитхаб](https://github.com/Evgenij-svg)
 
->Тут особо нет интересного
+## About Me
+Finished 9 classes, entered the lyceum of BNTU
 
-###### **моя почта deshkevih.evgenij@gmail.com**
+## Skills
+* HTML(bad)
+* CSS(bad)
+* JavaScript(bad)
+* Arduino(ok)
