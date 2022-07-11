@@ -1,7 +1,7 @@
 # Evgenij Deshkevich
 ## Contacts
 * __Location:__ Minsk,Belarus
-* __Phone:__ +3759482897
+* __Phone:__ +375259482897
 * __Email:__ deshkevich.evgenij@gmail.com
 * __Github:__ Evgenij-svg
 
