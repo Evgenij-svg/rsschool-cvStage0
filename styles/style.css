@@ -76,7 +76,7 @@ section{
 *{
     margin: auto;
 }
-section>a{
+.rollingScope>a{
     font-size: 30px;
     margin-top: 20px;
     margin-right: 10px;
