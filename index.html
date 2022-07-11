@@ -1,71 +1,83 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Тестовая страница</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <script src="scripts/script.js"></script>
-  </head>
-  <body>
-    <header>
-      <h1>My CV</h1>
-      <nav>
-        <a href="#aboutMe" class="navigationLink">About me</a>
-        <a href="#UCHOBA" class="navigationLink">Учёба</a>
-        <a href="#CodeJS" class="navigationLink">CodeJS</a>
-        <a href="#Task" class="navigationLink">Task</a>
-        <a href="#English" class="navigationLink">English</a>
-        <a href="#Skills" class="navigationLink">Skills</a>
-        <a href="#Education" class="navigationLink">Education</a>
-        <a href="#Contacts" class="navigationLink">Contacts</a>
-      </nav>
-    </header>
-    <main>
-      <article>
-        <h2 id="aboutMe">About me</h2>
-        <p>Я Евгений Дешкевич.Робототехник,программист,театрал.</p>
-        <h2 id="UCHOBA">Учёба</h2>
-        <p>Имею общее оброзование.Поступил в лицей</p>
-        <h2 id="CodeJS">CodeJS</h2>
-        <code></code>
-        <h2 id="Task">Task</h2>
-        <p>
-          <ul>
-            <li>CV1</li>
-            <li>CV2</li>
-          </ul>
-        </p>
-        <h2 id="English">English</h2>
-        <p>Я очено плохо разговариваю на англиском</p>
-      </article>
-      <aside>
-        <h2 id="Skills">Skills</h2>
-        <p>
-          <ol>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Arduino</li>
-            <li>3D-Modeling</li>
-          </ol>
-        </p>
-        <h2 id="Education">Education</h2>
-      </aside>
-    </main>
-    <footer>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Тестовая страница</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <script src="scripts/script.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>My CV</h1>
+    <img src="/img/avatar.jpg" width="70px" alt="avatar" />
+    <nav>
+      <a href="#aboutMe" class="navigationLink">About me</a>
+      <a href="#Education" class="navigationLink">Education</a>
+      <a href="#CodeJS" class="navigationLink">CodeJS</a>
+      <a href="#Tasks" class="navigationLink">Tasks</a>
+      <a href="#Skills" class="navigationLink">Skills</a>
+      <a href="#Contacts" class="navigationLink">Contacts</a>
+    </nav>
+  </header>
+  <main>
+    <article>
+      <h2 id="aboutMe">About me</h2>
+      <p>I am Evgeniy Deshkevich. Roboticist, programmer, theater person.</p>
+      <h2 id="Education">Education</h2>
+      <p>I have a general education. I entered the lyceum</p>
+      <p>I speak English very badly</p>
+      <h2 id="CodeJS">CodeJS</h2>
+      <p class="codejs">
+        <code>
+          function showMessage(from, text) {<br/>
+            alert(from + ': ' + text);<br/>
+          }
+        </code>
+      </p>
+    </article>
+    <aside>
+      <h2 id="Skills">Skills</h2>
+      <p>
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Arduino</li>
+        <li>3D-Modeling</li>
+      </ol>
+      </p>
+      <h2 id="Tasks">Tasks</h2>
+      <p>
+      <ul>
+        <li><a href="https://github.com/Evgenij-svg/rsschool-cv/pull/1">CV1</a></li>
+        <li><a href="https://github.com/Evgenij-svg/rsschool-cv/pull/6">CV2</a></li>
+      </ul>
+      </p>
+    </aside>
+  </main>
+  <footer>
+    <section>
       <h2 id="Contacts">Contacts</h2>
       <p>
-        <span>
-          <span class="contactsSpan">Email-</span>deshkevich.evgenij@gmail.com
-        </span>
-        <span>
-          <span class="contactsSpan">Phone-</span>+375259482897
-        </span>
-        <span>
-          <a>Github</a>
-        </span>
+      <div>
+        <span>Email-</span>deshkevich.evgenij@gmail.com
+      </div>
+      <div>
+        <span>Phone-</span>+375259482897
+      </div>
+      <div>
+        <a href="https://github.com/Evgenij-svg">Github</a>
+      </div>
       </p>
-    </footer>
-  </body>
+    </section>
+    <section class="rollingScope">
+      <a href="https://rs.school/js-stage0/">Rolling Scope</a>
+      <img src="/img/rs.jpg" height="120px">
+    </section>
+  </footer>
+</body>
+
 </html>
 
 <!-- ! comments-->
