@@ -1,0 +1,87 @@
+header {
+    display:flex;
+    align-items: center;
+    background-color:#2C5F79;
+    height: 70px;
+    width: 1050px;
+}
+h1{
+    margin:0;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.navigationLink{
+    color:black;
+    font-size: 30px;
+    margin-right: 10px;
+    padding:5px;
+}
+.navigationLink:hover{
+    background-color:#4188ac;
+    border-radius: 5px;
+}
+main{
+    display:flex;
+    flex-direction: row;
+    background-color:darkgray;
+    width: 1050px;
+}
+article{
+    margin-right: 10%;
+}
+p{
+    font-size: 25px;
+}
+li{
+    font-size: 25px;
+}
+div{
+    margin: 0;
+    font-size: 25px;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+span, div>a{
+    font-weight:bolder;    
+}
+
+p, h2{
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-left: 0;
+}
+#Education,#CodeJS{
+    margin-top: 20px;
+}
+code{
+    font-size: 15px;
+    font-weight:bolder;
+}
+.codejs{
+    background-color: rgb(195, 172, 139);
+    width: fit-content;
+}
+footer{
+    width: 1050px;
+    background-color:darkolivegreen;
+    display: flex;
+    justify-content: flex-start;
+}
+section{
+    margin-left: 0px;
+}
+*{
+    margin: auto;
+}
+section>a{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.rollingScope{
+    display: flex;
+
+}
