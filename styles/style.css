@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Magra:wght@700&family=Red+Hat+Text&display=swap');
+header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    display: flex;
+}
+img[src$='Vector.svg'] {
+    margin-left: 120px;
+    margin-top: 25px;
+    width: 30px;
+    height: 30px;
+}
+.travelPortal {
+    /* position: absolute;
+    width: 180px;
+    height: 31px;
+    left: 156px;
+    top: 25px;*/
+    margin-top: 23px;
+    margin-left: 5px;
+    font-weight: bolder;
+    font-family: 'Magra';
+    font-style: normal;
+
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: 0.1px;
+    color: #ffffff;
+}
+header > nav > a {
+    width: 98px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    letter-spacing: 0.3px;
+}
+nav {
+    margin-left: 163px;
+    margin-top: 35px;
+    /*letter-spacing: 0.05px;*/
+}
+.navA {
+    margin-left: 36px;
+}
+.navA1 {
+    margin-left: 39px;
+}
+.navA2 {
+    margin-left: 38px;
+}
+.Login {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 41px;
+    margin-top: 25px;
+    margin-left: 195px;
+    background: #0d606f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+        0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: 1px none black;
+}
+.Login > span {
+    width: 43px;
+    height: 21px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+    padding-top: 0px;
+    padding-right: 5px;
+}
+body > img {
+    position: absolute;
+    width: 1440px;
+    height: 765px;
+    left: 0px;
+    top: 0px;
+}
+h1 {
+    position: absolute;
+    width: 892px;
+    height: 422px;
+    margin-top: 114px;
+    margin-left: 115px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+h1 + div {
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.WhatWould {
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+.WhatWould > span {
+    position: absolute;
+    width: 560px;
+    height: 22px;
+    left: 35px;
+    top: 30px;
+    /*padding-left: 30px;
+    padding-top: 30px;*/
+    font-family: 'Aleo';
+    /*font-style: italic;*/
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #f2785c;
+}
+.StartPlanning {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 647px;
+    top: 15px;
+
+    background: #0d606f;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+        0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: 1px none black;
+}
+.StartPlanning > span {
+    width: 163px;
+    height: 32px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 5px;
+    padding-right: 15px;
+    /* identical to box height */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+h2 {
+     position: absolute; 
+}
+.steps>h2{
+    position: absolute;
+    width: 611px;
+    height: 53px;
+    left:415px;
+    top:812px ;
+    font-weight: 700;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    
+    
+    color: #F2785C;
+}
+*{
+    margin: auto;
+}
