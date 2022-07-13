@@ -45,18 +45,18 @@ header > nav > a {
     letter-spacing: 0.3px;
 }
 nav {
-    margin-left: 167px;
+    margin-left: 162px;
     margin-top: 35px;
     /*letter-spacing: 0.05px;*/
 }
 .navA {
-    margin-left: 37px;
+    margin-left: 38px;
 }
 .navA1 {
-    margin-left: 40px;
+    margin-left: 37px;
 }
 .navA2 {
-    margin-left: 38px;
+    margin-left: 39px;
 }
 .Login {
     display: flex;
@@ -66,7 +66,7 @@ nav {
     width: 103px;
     height: 41px;
     margin-top: 25px;
-    margin-left: 197px;
+    margin-left: 193px;
     background: #0d606f;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
         0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -195,7 +195,7 @@ h2 {
 }
 .steps > h2 {
     position: absolute;
-    width: 611px;
+    width: 700px;
     height: 53px;
     left: 415px;
     top: 812px;
@@ -206,7 +206,7 @@ h2 {
     font-size: 40px;
     line-height: 53px;
     /* identical to box height */
-    letter-spacing: 0.7px;
+    letter-spacing: 0.5px;
 
     color: #f2785c;
 }
@@ -252,12 +252,12 @@ h2 {
 
     color: #0d606f;
 }
-.Samalet>img{
+.Samalet > img {
     position: absolute;
     left: 1100px;
     top: 940px;
 }
-.Samalet>span{
+.Samalet > span {
     position: absolute;
     width: 350px;
     height: 24px;
@@ -275,4 +275,77 @@ h2 {
     /*width: 1440px;
     height: 3735px;*/
     /*margin: auto;*/
+}
+.destinations > span {
+    position: absolute;
+    width: 501px;
+    height: 53px;
+    left: 470px;
+    top: 1189px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: 0.6px;
+    color: #f2785c;
+}
+.JAPAN > span {
+    position: absolute;
+    width: 108px;
+    height: 42px;
+    left: 335px;
+    top: 2005px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #ffffff;
+}
+.JAPAN > img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 320px;
+    top: 1290px;
+    border-radius: 16px;
+}
+.USA > span {
+    position: absolute;
+    width: 66px;
+    height: 42px;
+    left: 1190px;
+    top: 2005px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #ffffff;
+}
+.USA > img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 1180px;
+    top: 1290px;
+    border-radius: 16px;
+
+    overflow: hidden; /* Cuts off whatever goes beyond the container */
+}
+.SPAIN > img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: -539px;
+    top: 1290px;
+    border-radius: 16px;
+    overflow: hidden;
 }
