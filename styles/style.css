@@ -271,9 +271,11 @@ h2 {
     line-height: 24px;
     color: #0d606f;
 }
-* {
-    /*width: 1440px;
-    height: 3735px;*/
+body {
+    width: 1440px;
+    overflow-x: hidden;
+    /* margin: auto; */
+    /*height: 3735px;*/
     /*margin: auto;*/
 }
 .destinations > span {
@@ -315,11 +317,16 @@ h2 {
     top: 1290px;
     border-radius: 16px;
 }
+.USA{
+    width:260px ;
+    overflow-x: hidden;
+    overflow-x: clip;
+}
 .USA > span {
     position: absolute;
     width: 66px;
     height: 42px;
-    left: 1190px;
+    left: 1195px;
     top: 2005px;
 
     font-family: 'Red Hat Text';
@@ -338,7 +345,16 @@ h2 {
     top: 1290px;
     border-radius: 16px;
 
-    overflow: hidden; /* Cuts off whatever goes beyond the container */
+     /* Cuts off whatever goes beyond the container */
+}
+.USA>div{
+    position: absolute;
+    width: 540px;
+    height: 800px;
+    left: 1440px;
+    top: 1290px;
+    background-color: #ffffff;
+    overflow: hidden;
 }
 .SPAIN > img {
     position: absolute;
