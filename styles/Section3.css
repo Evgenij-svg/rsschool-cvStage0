@@ -1,0 +1,173 @@
+.destinations>span {
+    position: absolute;
+    width: 501px;
+    height: 53px;
+    left: 470px;
+    top: 1189px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: 0.6px;
+    color: #f2785c;
+}
+
+.JAPAN>span {
+    position: absolute;
+    width: 108px;
+    height: 42px;
+    left: 335px;
+    top: 2005px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #ffffff;
+}
+
+.JAPAN>img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 320px;
+    top: 1290px;
+    border-radius: 16px;
+}
+
+.USA {
+    width: 260px;
+    overflow-x: hidden;
+    overflow-x: clip;
+}
+
+.USA>span {
+    position: absolute;
+    width: 66px;
+    height: 42px;
+    left: 1195px;
+    top: 2005px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 42px;
+
+    color: #ffffff;
+}
+
+.USA>img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: 1180px;
+    top: 1290px;
+    border-radius: 16px;
+
+    /* Cuts off whatever goes beyond the container */
+}
+
+.USA>div {
+    position: absolute;
+    width: 540px;
+    height: 800px;
+    left: 1440px;
+    top: 1290px;
+    background-color: #ffffff;
+   
+}
+
+.SPAIN>img {
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    left: -539px;
+    top: 1290px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+
+.eclipses1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 10px;
+    top: 2110px;
+    left: 680px;
+}
+
+.eclipses2 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #F2785C;
+    border-radius: 10px;
+    top: 2110px;
+    left: 710px;
+}
+
+.eclipses3 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgba(242, 120, 92, 0.5);
+    border-radius: 10px;
+    top: 2110px;
+    left: 740px
+}
+
+.destinations>button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 607px;
+    top: 2172px;
+
+    background: #0D606F;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: 1px none black;
+}
+
+.destinations>button>img {
+    position: absolute;
+    left: 34px;
+    top: 19px;
+
+}
+.destinations>button>span {
+    width: 116px;
+    height: 32px;
+    padding-left: 45px;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

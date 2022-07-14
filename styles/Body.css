@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Magra:wght@700&family=Red+Hat+Text&display=swap');
+h2 {
+    position: absolute;
+}
+body {
+    width: 1440px;
+    overflow-x: hidden;
+    /* margin: auto; */
+    /*height: 3735px;*/
+    /*margin: auto;*/
+}
+html {
+    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
+  }

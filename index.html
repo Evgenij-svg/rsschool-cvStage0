@@ -1,79 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="utf-8" />
     <title>Travel</title>
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/Header.css" />
+    <link rel="stylesheet" href="styles/Section1.css" />
+    <link rel="stylesheet" href="styles/Section2.css" />
+    <link rel="stylesheet" href="styles/Section3.css" />
+    <link rel="stylesheet" href="styles/Section4.css" />
+    <link rel="stylesheet" href="styles/Body.css" />
     <script src="scripts/index.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <img src="img/bgiHS.jpg" />
     <header>
-        <img src="img/Vector.svg" />
-        <span class="travelPortal">Travel Portal</span>
-        <nav>
-            <a>How It Works</a>
-            <a class="navA">Plan Your Trip</a>
-            <a class="navA1">Destinations</a>
-            <a class="navA2">Travel Stories</a>
-        </nav>
-        <form>
-            <button class="Login"><span>Login</span></button>
-        </form>
+      <img src="img/Vector.svg" />
+      <span class="travelPortal">Travel Portal</span>
+      <nav>
+        <a href="#previewID">How It Works</a>
+        <a class="navA" href="#stepsID">Plan Your Trip</a>
+        <a class="navA1" href="#destinationsiD">Destinations</a>
+        <a class="navA2" href="#storiesID">Travel Stories</a>
+      </nav>
+      <form>
+        <button class="Login"><span>Login</span></button>
+      </form>
     </header>
     <main>
-        <section class="preview">
-            <h1>Explore the beauty of the World</h1>
-            <div>Receive personalized recommendations for countries, hotels, activities and more</div>
-            <div class="WhatWould">
-                <span>What would you like to do?</span>
-                <button class="StartPlanning"><span>Start Planning</span></button>
-            </div>
-        </section>
+      <section class="preview" id="previewID">
+        <h1>Explore the beauty of the World</h1>
+        <div>
+          Receive personalized recommendations for countries, hotels, activities
+          and more
+        </div>
+        <div class="WhatWould">
+          <span>What would you like to do?</span>
+          <button class="StartPlanning"><span>Start Planning</span></button>
+        </div>
+      </section>
 
-        <section class="steps">
-            <h2>3 STEPS TO THE PERFECT TRIP</h2>
-            <div class="Velo">
-                <img src="img/Velo.svg" />
-                <span>Tell us what you want to do</span>
-            </div>
-            <div class="Calendar">
-                <img src="img/calendar.svg" />
-                <span>Share us preferable dates </span>
-            </div>
-            <div class="Samalet">
-                <img src="img/samalet.svg" />
-                <span>We will give you recommendations</span>
-            </div>
-        </section>
+      <section class="steps" id="stepsID">
+        <h2>3 STEPS TO THE PERFECT TRIP</h2>
+        <div class="Velo">
+          <img src="img/Velo.svg" />
+          <span>Tell us what you want to do</span>
+        </div>
+        <div class="Calendar">
+          <img src="img/calendar.svg" />
+          <span>Share us preferable dates </span>
+        </div>
+        <div class="Samalet">
+          <img src="img/samalet.svg" />
+          <span>We will give you recommendations</span>
+        </div>
+      </section>
 
-        <section class="destinations">
-            <span>POPULAR DESTINATIONS</span>
-            <div class="JAPAN">
-                <img src="img/JAPAN.jpg" alt="JAPAN">
-                <span>JAPAN</span>
-            </div>
-            <div class="USA">
-                <img src="img/USA.jpg" alt="USA">
-                <div></div>
-                <span >USA</span>
-                
-            </div>
-            <div class="SPAIN">
-                <!-- <span >SPAIN</span> -->
-                <img src="img/SPAIN.jpg" alt="SPAIN">
-            </div>
-        </section>
+      <section class="destinations" id="destinationsiD">
+        <span>POPULAR DESTINATIONS</span>
+        <div class="Images_destinations">
+          <div class="JAPAN">
+            <img src="img/JAPAN.jpg" alt="JAPAN" />
+            <span>JAPAN</span>
+          </div>
+          <div class="USA">
+            <img src="img/USA.jpg" alt="USA" />
+            <div></div>
+            <span>USA</span>
+          </div>
+          <div class="SPAIN">
+            <!-- <span >SPAIN</span> -->
+            <img src="img/SPAIN.jpg" alt="SPAIN" />
+          </div>
+        </div>
+        <div class="eclipses">
+          <div class="eclipses1"></div>
 
-        <section class="stories">
+          <div class="eclipses2"></div>
 
-        </section>
+          <div class="eclipses3"></div>
+        </div>
+        <button>
+          <img src="img/arrow.svg" />
+          <span>Find More</span>
+        </button>
+      </section>
+
+      <section class="stories" id="storiesID">
+        <h2>TRAVEL STORIES</h2>
+        <img src="img/BG_footer_section4.jpg" />
+        <div class="storiesdiv">
+          <div class="story1 story">
+            <img src="img/Taihaland.jpg" class="ImgStories" />
+            <div>
+              <h3 class="H3Stories">10 Photos of Attractive Thailand</h3>
+              <p class="PStories">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit... <a href="#" class="AStories">Read More</a>
+              </p>
+            </div>
+          </div>
+          <div class="story2 story">
+            <img class="ImgStories" src="img/Utah.jpg" />
+            <div>
+              <h3 class="H3Stories">Canyonlands National Park, Utah</h3>
+              <p class="PStories">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit... <a href="#" class="AStories">Read More</a>
+              </p>
+            </div>
+          </div>
+          <div class="story3 story">
+            <img class="ImgStories" src="img/Mountains.jpg" />
+            <div>
+              <h3 class="H3Stories">I left my heart in the Mountains!</h3>
+              <p class="PStories">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit... <a href="#" class="AStories">Read More</a>
+              </p>
+            </div>
+          </div>
+          <div class="story4 story">
+            <img class="ImgStories" src="img/Longest.jpg" />
+            <div>
+              <h3 class="H3Stories">The Longest journey in my life!</h3>
+              <p class="PStories">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est
+                laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit... Read More
+              </p>
+            </div>
+          </div>
+          <button>
+            <img src="img/arrow.svg"/>
+             <span>See More</span>
+          </button>
+          
+        </div>
+      </section>
+
     </main>
     <footer>
-
+      <span>
+        All Rights Reserved © Travel Portal
+      </span>
     </footer>
-</body>
-
+  </body>
 </html>

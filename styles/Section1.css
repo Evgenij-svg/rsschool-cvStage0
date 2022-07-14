@@ -1,0 +1,106 @@
+
+body > img {
+    position: absolute;
+    width: 1440px;
+    height: 765px;
+    left: 0px;
+    top: 0px;
+}
+h1 {
+    position: absolute;
+    width: 895px;
+    height: 422px;
+    margin-top: 115px;
+    margin-left: 115px;
+    font-family: 'Aleo';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 96px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+h1 + div {
+    position: absolute;
+    width: 723px;
+    height: 24px;
+    left: 120px;
+    top: 346px;
+
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #ffffff;
+}
+.WhatWould {
+    position: absolute;
+    width: 892px;
+    height: 95px;
+    left: 120px;
+    top: 416px;
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 16px;
+}
+.WhatWould > span {
+    position: absolute;
+    width: 560px;
+    height: 22px;
+    left: 39px;
+    top: 33px;
+    /*padding-left: 30px;
+    padding-top: 30px;*/
+    font-family: 'Aleo';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+
+    color: #f2785c;
+}
+.StartPlanning {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+
+    position: absolute;
+    width: 228px;
+    height: 59px;
+    left: 647px;
+    top: 15px;
+
+    background: #0d606f;
+    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+        0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    border: 1px none black;
+}
+.StartPlanning > span {
+    width: 163px;
+    height: 32px;
+
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    padding-top: 5px;
+    padding-right: 15px;
+    /* identical to box height */
+
+    color: #ffffff;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
