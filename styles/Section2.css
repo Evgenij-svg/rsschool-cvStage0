@@ -1,79 +1,27 @@
+.steps{
+    margin-top: 300px;
+    width: 1400px;
+}
 
 .steps > h2 {
-    position: absolute;
     width: 700px;
     height: 53px;
-    left: 415px;
-    top: 812px;
-    font-weight: 700;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-
-    font-size: 40px;
-    line-height: 53px;
-    /* identical to box height */
-    letter-spacing: 0.5px;
-
-    color: #f2785c;
 }
-.Velo > img {
-    position: absolute;
-    left: 204px;
-    top: 939px;
-}
-.Velo > span {
-    position: absolute;
-    width: 260px;
-    height: 24px;
-    left: 130px;
-    top: 1068px;
-
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height */
-
-    color: #0d606f;
-}
-.Calendar > img {
-    position: absolute;
-    left: 670px;
-    top: 940px;
-}
-.Calendar > span {
-    position: absolute;
-    width: 250px;
-    height: 24px;
-    left: 607px;
-    top: 1068px;
-
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height */
-
-    color: #0d606f;
-}
-.Samalet > img {
-    position: absolute;
-    left: 1100px;
-    top: 940px;
-}
-.Samalet > span {
-    position: absolute;
-    width: 350px;
-    height: 24px;
-    left: 990px;
-    top: 1068px;
-
+.stepsSpan{
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #0d606f;
+    margin-top: 50px;
 }
+.steps>div{
+    display: flex;
+    flex-direction: row;
+}
+.stepsdiv{
+    display: flex;
+    flex-direction: column;
+}
+

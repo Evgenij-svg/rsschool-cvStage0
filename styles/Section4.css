@@ -1,10 +1,6 @@
 .stories>h2 {
-    position: absolute;
     width: 335px;
     height: 53px;
-    left: 552px;
-    top: 2279px;
-
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 500;
@@ -17,24 +13,22 @@
 }
 
 .stories>img {
-    position: absolute;
     width: 1440px;
     height: 1331px;
-    left: 0px;
-    top: 2404px;
 
 }
 
 .storiesdiv {
-    position: absolute;
+   background-image: url(../img/BG_footer_section4.jpg);
+    width: 1445px;
+    height: 1331px;
+     
+}
+.storiesdiv>div{
+    background:rgba(255, 255, 255, 0.7);
     width: 1445px;
     height: 1270px;
-    left: 0px;
-    top: 2404px;
-
-    background: rgba(255, 255, 255, 0.7);
 }
-
 .story {
     display: flex;
 
@@ -114,7 +108,7 @@
     padding-top: 30px;
 }
 
-.storiesdiv>button {
+.storiesdiv>div>button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -131,12 +125,12 @@
     border: 1px none black;
 }
 
-.storiesdiv>button>img {
+.storiesdiv>div>button>img {
     padding-bottom: 5px;
     padding-left: 3px;
 }
 
-.storiesdiv>button>span {
+.storiesdiv>div>button>span {
     width: 116px;
     height: 32px;
 

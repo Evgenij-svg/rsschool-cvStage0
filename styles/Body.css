@@ -1,14 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo&family=Magra:wght@700&family=Red+Hat+Text&display=swap');
-h2 {
-    position: absolute;
-}
 body {
-    width: 1440px;
-    overflow-x: hidden;
-    /* margin: auto; */
+    /*width: 1440px;
     /*height: 3735px;*/
-    /*margin: auto;*/
+    background-image: url(../img/bgiHS.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 html {
     scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
   }
+*{
+    margin: auto;
+    /*height: 3735px;*/
+}
+h2{
+    font-family: 'Red Hat Text';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 53px;
+    /* identical to box height */
+    letter-spacing: 0.6px;
+    color: #f2785c;
+}
