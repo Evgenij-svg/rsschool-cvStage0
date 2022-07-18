@@ -1,27 +1,66 @@
-.steps{
-    margin-top: 300px;
+.steps {
+  /*  margin: 0;*/
+    margin-top: 335px;
+
     width: 1400px;
 }
 
-.steps > h2 {
+.steps>h2 {
     width: 700px;
     height: 53px;
+    margin-left: 395px;
 }
-.stepsSpan{
+
+.stepsSpan {
     font-family: 'Aleo';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: #0d606f;
-    margin-top: 50px;
+    margin-top:30px;
+    /*width: 100px;*/
 }
-.steps>div{
+
+.steps>div {
     display: flex;
     flex-direction: row;
+    margin-top: 40px;
 }
-.stepsdiv{
+
+.stepsdiv {
     display: flex;
     flex-direction: column;
 }
 
+.Velo {
+    margin-right: 0px;
+    margin-left: 110px;
+}
+.Velo>img{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 75px
+}
+.Calendar {
+    margin-right: 0px;
+    margin-left: 234px;
+}
+.Calendar>img{
+    margin: 0;
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}
+
+.Samalet {
+    margin-right: 0px;
+    margin-left: 159px;
+}
+.Samalet>img{
+    margin: 0;
+    width: 100px;
+    margin-left: 110px;
+    height: 100px;
+}

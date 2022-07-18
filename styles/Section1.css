@@ -35,18 +35,23 @@ h1 + div {
     flex-direction: row;
     background: rgba(255, 255, 255, 0.7);
     border-radius: 16px;
+    margin: 0;
+    margin-top: 47px;
+    margin-left: 120px;
 }
 .WhatWould > span {
    
-    width: 560px;
+    width: 300px;
     height: 22px;
 
     font-family: 'Aleo';
-    font-style: italic;
+    /*font-style: italic;*/
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
-
+    margin: 0;
+    margin-top:35px;
+    margin-left: 40px;
     color: #f2785c;
 }
 .StartPlanning {
@@ -65,6 +70,10 @@ h1 + div {
         0px 2px 3px rgba(13, 96, 111, 0.16);
     border-radius: 10px;
     border: 1px none black;
+    margin: 0;
+    margin-left: 305px;
+    margin-top: 19px;
+    
 }
 .StartPlanning > span {
     width: 163px;
@@ -72,11 +81,11 @@ h1 + div {
 
     font-family: 'Red Hat Text';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 24px;
     line-height: 32px;
-    padding-top: 5px;
-    padding-right: 15px;
+    padding-top: 0px;
+    padding-right: 6px;
    
 
     color: #ffffff;
@@ -86,4 +95,5 @@ h1 + div {
     flex: none;
     order: 0;
     flex-grow: 0;
+    letter-spacing: 0.6px;
 }
