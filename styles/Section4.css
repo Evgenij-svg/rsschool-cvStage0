@@ -1,8 +1,11 @@
+.stories{
+    width: 1440px;
+}
 .stories>h2 {
     width: 700px;
     height: 53px;
     margin-top: 80px;
-    margin-left:705px ;
+    margin-left:575px ;
     font-family: 'Red Hat Text';
     font-style: normal;
     font-weight: 600;
@@ -151,13 +154,4 @@
     flex-grow: 0;
     padding-right: 30px;
 }
-footer>a{
-    margin-left: 0;
-    margin-right: 0;
-}
-img[src$="github.svg"]{
-    margin-right: 0;
-    margin-left: 20px;
-    flex-shrink: 0;
-    flex-grow: 0;
-}
+
