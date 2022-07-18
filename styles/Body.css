@@ -22,4 +22,17 @@ h2{
     /* identical to box height */
     letter-spacing: 0.6px;
     color: #f2785c;
+    width: 800px;
+}
+a{
+    cursor: pointer;
+    text-decoration:none ;
+    
+}
+button{
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+button:hover{
+    border: 4px double black;
 }

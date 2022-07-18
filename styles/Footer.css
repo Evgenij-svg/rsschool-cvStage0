@@ -3,15 +3,37 @@ footer>span {
     height: 21px;
     font-family: 'Red Hat Text';
     font-style: normal;
-    font-weight: 900;
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     line-height: 21px;
-    color: #FFFFFF; 
-    margin-left: 1000px;
+    
+    color: #FFFFFF;
+    margin-top: 20px; 
+    margin-left: 420px;
+    margin-right: 0;
 }
 footer{
     margin-top:-60px ;
     width: 1440px;
     display: flex;
     flex-direction: row;
+}
+footer>a{
+    margin-left: 0;
+    margin-right: 0;
+}
+img[src$="github.svg"]{
+    margin-left: 20px;
+}
+img[src$="instagram.svg"]{
+    margin-left: 330px;
+    margin-top: 10px;
+}
+img[src$="youtube.svg"]{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+img[src$="twitter.svg"]{
+    margin-left: 20px;
+    margin-top: 10px;
 }
