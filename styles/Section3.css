@@ -1,10 +1,16 @@
 .destinations>h2 {
-    width: 501px;
+    width: 801px;
     height: 53px;
+    margin-top: 96px;
+    margin-left: 470px;
+    letter-spacing: 0.7px;
 }
 .Images_destinations{
     display: flex;
     flex-direction: row;
+    /*align-items: center;*/
+    justify-content: center;
+    margin-top: 45px;
    /* width: 1440px;
     overflow: hidden;*/
 }
@@ -15,12 +21,16 @@
 .SpanDestinations{
     font-family: 'Red Hat Text';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 32px;
     line-height: 42px;
     color: #ffffff;
     margin: 0;
-    width: 66px;
+    width: 85px;
+    height: 60px;
+    margin-top: 720px;
+    margin-left: 15px;
+    letter-spacing: 0.7px;
 }
 .JAPAN{
     background-image: url(../img/JAPAN.jpg);
@@ -30,6 +40,8 @@
     margin-left: 60px;
     margin-right: 60px;
     box-sizing: content-box;    
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 .USA {
     
@@ -38,6 +50,8 @@
     height: 800px;
     border-radius: 16px;
     box-sizing: content-box;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 .SPAIN{
     background-image: url(../img/SPAIN.jpg);
@@ -45,11 +59,15 @@
     height: 800px;
     border-radius: 16px;
     box-sizing: content-box;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 .eclipses{
     display: flex;
     flex-direction: row;
     width: 100px;
+    margin-top: 25px;
+    margin-left: 680px;
 }
 .eclipses1 {
     margin-left: 0 ;
@@ -62,7 +80,7 @@
 }
 
 .eclipses2 {
-    margin-left: 0 ;
+    margin-left: 10px ;
     margin-right: 0 ;
     width: 20px;
     height: 20px;
@@ -72,7 +90,7 @@
 }
 
 .eclipses3 {
-    margin-left: 0 ;
+    margin-left:10px;
     margin-right: 0 ;
     width: 20px;
     height: 20px;
@@ -82,6 +100,7 @@
 }
 
 .destinations>button {
+    margin-top: 40px;;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -97,14 +116,14 @@
     border-radius: 10px;
     border: 1px none black;
 }
-
 .destinations>button>span {
+    letter-spacing: 0.9px;
     width: 116px;
     height: 32px;
-    padding-left: 45px;
+    padding-right: 0px;
     font-family: 'Red Hat Text';
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 24px;
     line-height: 32px;
     color: #FFFFFF; 
