@@ -1,17 +1,20 @@
-footer>span {
-    width: 260px;
-    height: 21px;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 14px;
-    line-height: 21px;
-    color: #FFFFFF; 
-    margin-left: 1000px;
-}
-footer{
-    margin-top:-60px ;
-    width: 1440px;
-    display: flex;
-    flex-direction: row;
+@media (min-width: 390px) {
+    footer>span {
+        width: 260px;
+        height: 21px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 14px;
+        line-height: 21px;
+        color: #FFFFFF;
+        margin-left: 1000px;
+    }
+
+    footer {
+        margin-top: -60px;
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+    }
 }
