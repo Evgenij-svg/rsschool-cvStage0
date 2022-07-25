@@ -1,19 +1,30 @@
 @media (min-width: 390px) {
+    .stories {
+        width: 1440px;
+    }
+
     .stories>h2 {
-        width: 335px;
+        width: 700px;
         height: 53px;
+        margin-top: 80px;
+        margin-left: 575px;
         font-family: 'Red Hat Text';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 40px;
         line-height: 53px;
         /* identical to box height */
         letter-spacing: 0.8px;
+
+        color: #F2785C;
     }
+
+
     .storiesdiv {
         background-image: url(../img/BG_footer_section4.jpg);
         width: 1445px;
         height: 1331px;
+        margin-top: 40px;
 
     }
 
@@ -21,15 +32,19 @@
         background: rgba(255, 255, 255, 0.7);
         width: 1445px;
         height: 1270px;
+        margin-left: 0;
     }
 
     .story {
         display: flex;
+    }
 
+    .story>div {
+        margin-left: 40px;
     }
 
     .H3Stories {
-        padding-left: 40px;
+        padding-left: 0px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
@@ -47,7 +62,7 @@
     }
 
     .PStories {
-        padding-left: 40px;
+        padding-left: 0px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
@@ -66,11 +81,17 @@
         margin-left: 120px;
         width: 400px;
         height: 250px;
-
+        margin-right: 0;
     }
 
-    .story1>img {
+    .ImageStoriesTaihaland {
+        background-image: url(../img/Taihaland.jpg);
+        margin: 0;
         margin-top: 40px;
+        width:400px;
+        height: 250px;
+        border-radius: 16px;
+        filter: drop-shadow(0px 4px 4px #0D606F);
     }
 
     .story2>img {
@@ -107,12 +128,11 @@
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 10px 32px;
         gap: 10px;
         width: 228px;
         height: 59px;
-        margin-left: 608px;
-        margin-top: 38px;
+        margin-left: 610px;
+        margin-top: 35px;
         background: #0D606F;
         box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
         border-radius: 10px;
@@ -120,8 +140,8 @@
     }
 
     .storiesdiv>div>button>img {
-        padding-bottom: 5px;
-        padding-left: 3px;
+        padding-bottom: 0px;
+        padding-left: 25px;
     }
 
     .storiesdiv>div>button>span {
@@ -144,6 +164,6 @@
         flex: none;
         order: 1;
         flex-grow: 0;
-        padding-right: 8px;
+        padding-right: 30px;
     }
 }

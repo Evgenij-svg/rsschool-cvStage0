@@ -70,3 +70,37 @@
         height: 100px;
     }
 }
+
+@media (max-width: 390px) {
+    .steps {
+        /*  margin: 0;*/
+        margin-top: 100px;
+        width: 390px;
+    }
+
+    .steps>div {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    .stepsdiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stepsdiv>img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .stepsSpan {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+
+        color: #0D606F;
+    }
+}
