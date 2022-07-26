@@ -74,16 +74,16 @@
     }
 
     .ImageStoriesTaihaland {
-        background-image: url(../img/Taihaland.jpg);
+        background-image: url("../img/Taihaland.jpg");
     }
     .ImageStoriesUtah {
-        background-image: url(../img/Utah.jpg);
+        background-image: url("../img/Utah.jpg");
     }
     .ImageStoriesMountains {
-        background-image: url(../img/Mountains.jpg);
+        background-image: url("../img/Mountains.jpg");
     }
     .ImageStoriesLongest {
-        background-image: url(../img/Longest.jpg);
+        background-image: url("../img/Longest.jpg");
     }
     .ImgStories {
         filter: drop-shadow(0px 4px 4px #0d606f);
@@ -183,16 +183,16 @@
     }
 
     .ImageStoriesTaihaland {
-        background-image: url(../mobile_image/story1.jpg);
+        background-image: url("../mobile_image/story1.jpg");
     }
     .ImageStoriesUtah {
-        background-image: url(../mobile_image/story2.jpg);
+        background-image: url("../mobile_image/story2.jpg");
     }
     .ImageStoriesMountains {
-        background-image: url(../mobile_image/story3.jpg);
+        background-image: url("../mobile_image/story3.jpg");
     }
     .ImageStoriesLongest {
-        background-image: url(../mobile_image/story4.jpg);
+        background-image: url("../mobile_image/story4.jpg");
     }
     .ImgStories {
         margin: 0;
