@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Travel</title>
-    <link rel="shortcut icon" href="img/Logo.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/Logo.ico" type="image/x-icon" />
     <link rel="stylesheet" href="styles/Header.css" />
     <link rel="stylesheet" href="styles/Section1.css" />
     <link rel="stylesheet" href="styles/Section2.css" />
@@ -16,17 +16,22 @@
 
   <body>
     <header>
-      <img src="img/Vector.svg" alt="Logo"/>
-      <span class="travelPortal">Travel Portal</span>
-      <nav>
-        <a href="#previewID">How It Works</a>
-        <a class="navA" href="#stepsID">Plan Your Trip</a>
-        <a class="navA1" href="#destinationsiD">Destinations</a>
-        <a class="navA2" href="#storiesID">Travel Stories</a>
-      </nav>
-      <form>
-        <button class="Login"><span>Login</span></button>
-      </form>
+      <div>
+        <img src="img/Vector.svg" />
+        <img src="mobile_image/burger.svg" />
+        <div>
+          <span class="travelPortal">Travel Portal</span>
+          <nav>
+            <a href="#previewID">How It Works</a>
+            <a class="navA" href="#stepsID">Plan Your Trip</a>
+            <a class="navA1" href="#destinationsiD">Destinations</a>
+            <a class="navA2" href="#storiesID">Travel Stories</a>
+          </nav>
+          <form>
+            <button class="Login"><span>Login</span></button>
+          </form>
+        </div>
+      </div>
     </header>
     <main>
       <section class="preview" id="previewID">
@@ -49,11 +54,11 @@
             <span class="stepsSpan">Tell us what you want to do</span>
           </div>
           <div class="stepsdiv Calendar">
-            <img src="img/calendar.svg" alt="calendar"/>
+            <img src="img/calendar.svg" alt="calendar" />
             <span class="stepsSpan">Share us preferable dates </span>
           </div>
           <div class="stepsdiv Samalet">
-            <img src="img/samalet.svg"  alt="Samalet"/>
+            <img src="img/samalet.svg" alt="Samalet" />
             <span class="stepsSpan">We will give you recommendations</span>
           </div>
         </div>
@@ -74,6 +79,14 @@
             <!-- <div></div> -->
           </div>
         </div>
+        <div class="ArrowsSlides">
+          <button class="ArrowSlide1 ArrowSlide">
+            <!-- <img src="mobile_image/ep_arrow-up-bold.svg" /> -->
+          </button>
+          <button class="ArrowSlide2 ArrowSlide">
+            <!-- <img src="mobile_image/arrow.svg" /> -->
+          </button>
+        </div>
         <div class="eclipses">
           <div class="eclipses1"></div>
 
@@ -91,7 +104,7 @@
         <div class="storiesdiv">
           <div>
             <div class="story1 story">
-              <img src="img/Taihaland.jpg" class="ImgStories" alt="Taihaland" />
+              <div class="ImageStoriesTaihaland ImgStories"></div>
               <div>
                 <h3 class="H3Stories">10 Photos of Attractive Thailand</h3>
                 <p class="PStories">
@@ -104,12 +117,12 @@
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit...
-                  <a href="#" class="AStories">Read More</a>
                 </p>
+                <a href="#" class="AStories">Read More</a>
               </div>
             </div>
             <div class="story2 story">
-              <img class="ImgStories" src="img/Utah.jpg"  alt="Utah"/>
+              <div class="ImageStoriesUtah ImgStories"></div>
               <div>
                 <h3 class="H3Stories">Canyonlands National Park, Utah</h3>
                 <p class="PStories">
@@ -122,12 +135,12 @@
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit...
-                  <a href="#" class="AStories">Read More</a>
                 </p>
+                <a href="#" class="AStories">Read More</a>
               </div>
             </div>
             <div class="story3 story">
-              <img class="ImgStories" src="img/Mountains.jpg" alt="Mountains"/>
+              <div class="ImageStoriesMountains ImgStories"></div>
               <div>
                 <h3 class="H3Stories">I left my heart in the Mountains!</h3>
                 <p class="PStories">
@@ -140,12 +153,12 @@
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.Lorem ipsum dolor sit amet,
                   consectetur adipiscing elit...
-                  <a href="#" class="AStories">Read More</a>
                 </p>
+                <a href="#" class="AStories">Read More</a>
               </div>
             </div>
             <div class="story4 story">
-              <img class="ImgStories" src="img/Longest.jpg" alt="Longest"/>
+              <div class="ImageStoriesLongest ImgStories"></div>
               <div>
                 <h3 class="H3Stories">The Longest journey in my life!</h3>
                 <p class="PStories">
@@ -157,8 +170,9 @@
                   dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                   cupidatat non proident, sunt in culpa qui officia deserunt
                   mollit anim id est laborum.Lorem ipsum dolor sit amet,
-                  consectetur adipiscing elit... Read More
+                  consectetur adipiscing elit...
                 </p>
+                <a href="#" class="AStories">Read More</a>
               </div>
             </div>
             <button>
@@ -166,20 +180,20 @@
               <span>See More</span>
             </button>
           </div>
-          
         </div>
       </section>
     </main>
     <footer>
-      
-      <a href="#"><img height="51" src="img/rs_school.svg" alt="logo rs school" /></a>
-      <a href="https://github.com/Evgenij-svg/rsschool-cv/tree/travel"><img height="51" src="img/github.svg" alt="github"/></a>
-      <span>
-        All Rights Reserved © Travel Portal
-      </span>
-      <a href="#"><img src="img/instagram.svg" alt="instagram"/></a>
+      <a href="#"
+        ><img height="51" src="img/rs_school.svg" alt="logo rs school"
+      /></a>
+      <a href="https://github.com/Evgenij-svg/rsschool-cv/tree/travel"
+        ><img height="51" src="img/github.svg" alt="github"
+      /></a>
+      <span> All Rights Reserved © Travel Portal </span>
+      <a href="#"><img src="img/instagram.svg" alt="instagram" /></a>
       <a href="#"><img src="img/youtube.svg" alt="youtube" /></a>
-      <a href="#"><img src="img/twitter.svg" alt="twitter"/></a>
+      <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
     </footer>
   </body>
 </html>

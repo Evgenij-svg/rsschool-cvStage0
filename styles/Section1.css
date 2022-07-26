@@ -1,99 +1,183 @@
-.preview{
-    width: 1440px;
-}
-h1 {
-    width: 895px;
-    margin-top: 30px;
-    margin-left: 120px;
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 80px;
-    line-height: 96px;
-    letter-spacing: 0.7px;
-    color: #ffffff;
-}
-h1 + div {
-    /* width: 723px;
+@media (min-width: 390px) {
+    .preview {
+        width: 1440px;
+        margin-top: -670px;
+    }
+
+    h1 {
+        width: 895px;
+        margin-top: 30px;
+        margin-left: 120px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 96px;
+        letter-spacing: 0.7px;
+        color: #ffffff;
+    }
+
+    h1+div {
+        /* width: 723px;
     height: 24px; */
-    margin-left: 120px;
-    margin-top: 33px;
+        margin-left: 120px;
+        margin-top: 33px;
 
-    font-family: 'Aleo';
-    font-style: italic;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    /* identical to box height */
-    letter-spacing: 0.5px;
-    color: #ffffff;
+        font-family: 'Aleo';
+        font-style: italic;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        /* identical to box height */
+        letter-spacing: 0.5px;
+        color: #ffffff;
+    }
+
+    .WhatWould {
+        width: 892px;
+        height: 95px;
+        display: flex;
+        flex-direction: row;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+        margin: 0;
+        margin-top: 47px;
+        margin-left: 120px;
+    }
+
+    .WhatWould>span {
+
+        width: 300px;
+        height: 22px;
+
+        font-family: 'Aleo';
+        /*font-style: italic;*/
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 29px;
+        margin: 0;
+        margin-top: 35px;
+        margin-left: 40px;
+        color: #f2785c;
+    }
+
+    .StartPlanning {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 10px;
+
+        width: 228px;
+        height: 59px;
+
+        background: #0d606f;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+            0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: 1px none black;
+        margin: 0;
+        margin-left: 305px;
+        margin-top: 19px;
+
+    }
+
+    .StartPlanning>span {
+        width: 163px;
+        height: 32px;
+
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        padding-top: 0px;
+        padding-right: 6px;
+
+
+        color: #ffffff;
+
+
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        letter-spacing: 0.6px;
+    }
 }
-.WhatWould {
-    width: 892px;
-    height: 95px;
-    display: flex;
-    flex-direction: row;
-    background: rgba(255, 255, 255, 0.7);
-    border-radius: 16px;
-    margin: 0;
-    margin-top: 47px;
-    margin-left: 120px;
-}
-.WhatWould > span {
-   
-    width: 300px;
-    height: 22px;
 
-    font-family: 'Aleo';
-    /*font-style: italic;*/
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 29px;
-    margin: 0;
-    margin-top:35px;
-    margin-left: 40px;
-    color: #f2785c;
-}
-.StartPlanning {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
+@media (max-width: 390px) {
+    .preview {
+        width: 390px;
+        margin-top: -150px;
+    }
 
-    width: 228px;
-    height: 59px;
+    h1 {
+        display: none;
+    }
 
-    background: #0d606f;
-    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
-        0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-    border: 1px none black;
-    margin: 0;
-    margin-left: 305px;
-    margin-top: 19px;
-    
-}
-.StartPlanning > span {
-    width: 163px;
-    height: 32px;
+    h1+div {
+        display: none;
+    }
 
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    padding-top: 0px;
-    padding-right: 6px;
-   
+    .WhatWould {
+        width: 360px;
+        height: 48px;
+        display: flex;
+        background: rgba(255, 255, 255, 0.7);
+        border-radius: 16px;
+    }
 
-    color: #ffffff;
+    .WhatWould>span {
+        width: 226.01px;
+        height: 11.12px;
+        font-family: 'Aleo';
+        font-style: italic;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
 
-    
+        color: #F2785C;
+    }
 
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    letter-spacing: 0.6px;
+    .StartPlanning {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 10px;
+        width: 92px;
+        height: 30px;
+
+        background: #0D606F;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: none;
+    }
+
+    .StartPlanning>span {
+        width: 74px;
+        height: 15px;
+
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+    }
 }

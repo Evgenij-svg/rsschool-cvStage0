@@ -1,38 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Aleo&family=Magra:wght@700&family=Red+Hat+Text&display=swap');
-body {
-    /*width: 1440px;
-    /*height: 3735px;*/
-    background-image: url(../img/bgiHS.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-}
-html {
-    scroll-behavior: smooth; /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
-  }
-*{
+
+* {
     margin: auto;
-    /*height: 3735px;*/
 }
-h2{
+
+h2 {
+    color: #f2785c;
     font-family: 'Red Hat Text';
     font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 53px;
-    /* identical to box height */
-    letter-spacing: 0.6px;
-    color: #f2785c;
-    width: 800px;
 }
-a{
-    cursor: pointer;
-    text-decoration:none ;
-    
+
+@media (min-width: 390px) {
+    html {
+        scroll-behavior: smooth;
+
+        /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
+    }
+
+
+    h2 {
+
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 53px;
+        /* identical to box height */
+        letter-spacing: 0.6px;
+
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    button {
+        cursor: pointer;
+        transition: .5s ease-in-out;
+    }
+
+    button:hover {
+        border: 4px double black;
+    }
+
 }
-button{
-    cursor: pointer;
-    transition: .5s ease-in-out;
-}
-button:hover{
-    border: 4px double black;
+
+@media (max-width: 390px) {
+    h2 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+    }
 }

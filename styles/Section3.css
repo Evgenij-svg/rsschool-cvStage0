@@ -1,133 +1,315 @@
-.destinations>h2 {
-    width: 801px;
-    height: 53px;
-    margin-top: 96px;
-    margin-left: 470px;
-    letter-spacing: 0.7px;
-}
-.Images_destinations{
-    display: flex;
-    flex-direction: row;
-    /*align-items: center;*/
-    justify-content: center;
-    margin-top: 45px;
-   /* width: 1440px;
+@media (min-width: 390px) {
+    .destinations>h2 {
+        width: 501px;
+        height: 53px;
+        margin-top: 96px;
+        letter-spacing: 0.7px;
+    }
+
+    .Images_destinations {
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+        justify-content: center;
+        margin-top: 45px;
+        /* width: 1440px;
     overflow: hidden;*/
-}
-.destinations{
-   width: 1440px;
-    overflow: hidden;
-}
-.SpanDestinations{
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 32px;
-    line-height: 42px;
-    color: #ffffff;
-    margin: 0;
-    width: 85px;
-    height: 60px;
-    margin-top: 720px;
-    margin-left: 15px;
-    letter-spacing: 0.7px;
-}
-.JAPAN{
-    background-image: url(../img/JAPAN.jpg);
-    width: 800px;
-    height: 800px;
-    border-radius: 16px;
-    margin-left: 60px;
-    margin-right: 60px;
-    box-sizing: content-box;    
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-.USA {
-    
-    background-image: url(../img/USA.jpg);
-    width: 800px;
-    height: 800px;
-    border-radius: 16px;
-    box-sizing: content-box;
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-.SPAIN{
-    background-image: url(../img/SPAIN.jpg);
-    width: 800px;
-    height: 800px;
-    border-radius: 16px;
-    box-sizing: content-box;
-    flex-shrink: 0;
-    flex-grow: 0;
-}
-.eclipses{
-    display: flex;
-    flex-direction: row;
-    width: 100px;
-    margin-top: 25px;
-    margin-left: 680px;
-}
-.eclipses1 {
-    margin-left: 0 ;
-    margin-right: 0 ;
-    width: 20px;
-    height: 20px;
-    background: rgba(242, 120, 92, 0.5);
-    border-radius: 10px;
-    
+    }
+
+    .destinations {
+        width: 1440px;
+        overflow: hidden;
+    }
+
+    .SpanDestinations {
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 42px;
+        color: #ffffff;
+        margin: 0;
+        width: 85px;
+        height: 60px;
+        margin-top: 720px;
+        margin-left: 15px;
+        letter-spacing: 0.7px;
+    }
+
+    .JAPAN {
+        background-image: url(../img/JAPAN.jpg);
+        width: 800px;
+        height: 800px;
+        border-radius: 16px;
+        margin-left: 60px;
+        margin-right: 60px;
+        box-sizing: content-box;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .USA {
+
+        background-image: url(../img/USA.jpg);
+        width: 800px;
+        height: 800px;
+        border-radius: 16px;
+        box-sizing: content-box;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .SPAIN {
+        background-image: url(../img/SPAIN.jpg);
+        width: 800px;
+        height: 800px;
+        border-radius: 16px;
+        box-sizing: content-box;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .eclipses {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        margin-top: 25px;
+        margin-left: 680px;
+    }
+
+    .eclipses1 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 20px;
+        height: 20px;
+        background: rgba(242, 120, 92, 0.5);
+        border-radius: 10px;
+
+    }
+
+    .eclipses2 {
+        margin-left: 10px;
+        margin-right: 0;
+        width: 20px;
+        height: 20px;
+        background: #F2785C;
+        border-radius: 10px;
+
+    }
+
+    .eclipses3 {
+        margin-left: 10px;
+        margin-right: 0;
+        width: 20px;
+        height: 20px;
+        background: rgba(242, 120, 92, 0.5);
+        border-radius: 10px;
+
+    }
+
+    .destinations>button {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 10px;
+
+        width: 228px;
+        height: 59px;
+
+        background: #0D606F;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: 1px none black;
+    }
+
+    .destinations>button>span {
+        letter-spacing: 0.4px;
+        width: 116px;
+        height: 32px;
+        padding-right: 0;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        color: #FFFFFF;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    .ArrowSlide {
+        display: none;
+    }
 }
 
-.eclipses2 {
-    margin-left: 10px ;
-    margin-right: 0 ;
-    width: 20px;
-    height: 20px;
-    background: #F2785C;
-    border-radius: 10px;
-    
-}
+@media (max-width: 390px) {
+    .Images_destinations {
+        display: flex;
+        flex-direction: row;
+        /*align-items: center;*/
+        justify-content: start;
+        margin-top: 45px;
+        /* width: 1440px;
+    overflow: hidden;*/
+    }
 
-.eclipses3 {
-    margin-left:10px;
-    margin-right: 0 ;
-    width: 20px;
-    height: 20px;
-    background: rgba(242, 120, 92, 0.5);
-    border-radius: 10px;
-    
-}
+    .destinations {
+        width: 390px;
+        overflow-x: hidden;
+    }
 
-.destinations>button {
-    margin-top: 40px;;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 32px;
-    gap: 10px;
+    .SpanDestinations {
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 26px;
+        width: 60px;
+        height: 26px;
+        color: #FFFFFF;
+        margin: 0;
+    }
 
-    width: 228px;
-    height: 59px;
-    
-    background: #0D606F;
-    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-    border: 1px none black;
-}
-.destinations>button>span {
-    letter-spacing: 0.4px;
-    width: 116px;
-    height: 32px;
-    padding-right: 0;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #FFFFFF; 
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    .USA {
+        background-image: url(../mobile_image/USAslide.jpg);
+        width: 360px;
+        height: 210px;
+        border-radius: 16px;
+        /*box-sizing: content-box;*/
+        margin-right: 15px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .SPAIN {
+        background-image: url(../mobile_image/SPAINslide.jpg);
+        width: 360px;
+        height: 210px;
+        border-radius: 16px;
+        margin-left: 15px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .JAPAN {
+        background-image: url(../mobile_image/JAPANslide.jpg);
+        width: 360px;
+        height: 210px;
+        border-radius: 16px;
+        margin-left: 15px;
+        margin-right: 15px;
+        flex-shrink: 0;
+        flex-grow: 0;
+    }
+
+    .ArrowSlide {
+
+        width: 30px;
+        height: 30px;
+        border: 0;
+        background: transparent;
+        background-repeat: no-repeat
+    }
+
+    .ArrowsSlides {
+        margin-top: -40px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .ArrowSlide1{
+        background-image: url("../mobile_image/ep_arrow-up-bold.svg");
+    }
+    .ArrowSlide2{
+        background-image: url("../mobile_image/arrow.svg");
+    }
+    .eclipses {
+        display: flex;
+        flex-direction: row;
+        width: 100px;
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .eclipses1 {
+        margin-left: 0;
+        margin-right: 0;
+        width: 8px;
+        height: 8px;
+        background: rgba(242, 120, 92, 0.5);
+        border-radius: 10px;
+
+    }
+
+    .eclipses2 {
+        margin-left: 10px;
+        margin-right: 0;
+        width: 8px;
+        height: 8px;
+        background: #F2785C;
+        border-radius: 10px;
+
+    }
+
+    .eclipses3 {
+        margin-left: 10px;
+        margin-right: 0;
+        width: 8px;
+        height: 8px;
+        background: rgba(242, 120, 92, 0.5);
+        border-radius: 10px;
+
+    }
+
+
+    .destinations>button {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 6px;
+        
+        width: 92px;
+        height: 30px;
+        
+        background: #0D606F;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: none;
+    }
+
+    .destinations>button>span {
+        width: 52px;
+        height: 15px;
+        
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height */
+        
+        display: flex;
+        align-items: center;
+        text-align: right;
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        border: none;
+    }
+
+
 }
