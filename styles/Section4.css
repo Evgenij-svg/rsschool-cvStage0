@@ -3,7 +3,7 @@
         width: 1440px;
     }
 
-    .stories>h2 {
+    .stories > h2 {
         width: 700px;
         height: 53px;
         margin-top: 80px;
@@ -16,19 +16,17 @@
         /* identical to box height */
         letter-spacing: 0.8px;
 
-        color: #F2785C;
+        color: #f2785c;
     }
-
 
     .storiesdiv {
         background-image: url(../img/BG_footer_section4.jpg);
         width: 1445px;
         height: 1331px;
         margin-top: 40px;
-
     }
 
-    .storiesdiv>div {
+    .storiesdiv > div {
         background: rgba(255, 255, 255, 0.7);
         width: 1445px;
         height: 1270px;
@@ -39,7 +37,7 @@
         display: flex;
     }
 
-    .story>div {
+    .story > div {
         margin-left: 40px;
     }
 
@@ -50,7 +48,7 @@
         font-weight: 400;
         font-size: 35px;
         line-height: 42px;
-        color: #0D606F;
+        color: #0d606f;
         margin: 0px;
         padding-bottom: 0;
         width: 760px;
@@ -58,7 +56,7 @@
     }
 
     .AStories {
-        color: #0D606F;
+        color: #0d606f;
     }
 
     .PStories {
@@ -68,62 +66,64 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
-        color: #0D606F;
+        color: #0d606f;
         margin: 0px;
         width: 760px;
         height: 184px;
         margin-top: 25px;
     }
 
+    .ImageStoriesTaihaland {
+        background-image: url(../img/Taihaland.jpg);
+    }
+    .ImageStoriesUtah {
+        background-image: url(../img/Utah.jpg);
+    }
+    .ImageStoriesMountains {
+        background-image: url(../img/Mountains.jpg);
+    }
+    .ImageStoriesLongest {
+        background-image: url(../img/Longest.jpg);
+    }
     .ImgStories {
-        filter: drop-shadow(0px 4px 4px #0D606F);
+        filter: drop-shadow(0px 4px 4px #0d606f);
         border-radius: 16px;
         margin-left: 120px;
         width: 400px;
         height: 250px;
-        margin-right: 0;
-    }
-
-    .ImageStoriesTaihaland {
-        background-image: url(../img/Taihaland.jpg);
         margin: 0;
         margin-top: 40px;
-        width:400px;
-        height: 250px;
-        border-radius: 16px;
-        filter: drop-shadow(0px 4px 4px #0D606F);
     }
 
-    .story2>img {
+    .story2 > img {
         margin-top: 30px;
     }
 
-    .story3>img {
+    .story3 > img {
         margin-top: 30px;
     }
 
-    .story4>img {
+    .story4 > img {
         margin-top: 30px;
     }
 
-    .story1>div>h3 {
-
+    .story1 > div > h3 {
         padding-top: 40px;
     }
 
-    .story2>div>h3 {
+    .story2 > div > h3 {
         padding-top: 30px;
     }
 
-    .story3>div>h3 {
+    .story3 > div > h3 {
         padding-top: 30px;
     }
 
-    .story4>div>h3 {
+    .story4 > div > h3 {
         padding-top: 30px;
     }
 
-    .storiesdiv>div>button {
+    .storiesdiv > div > button {
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -133,18 +133,19 @@
         height: 59px;
         margin-left: 610px;
         margin-top: 35px;
-        background: #0D606F;
-        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+        background: #0d606f;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+            0px 2px 3px rgba(13, 96, 111, 0.16);
         border-radius: 10px;
         border: 1px none black;
     }
 
-    .storiesdiv>div>button>img {
+    .storiesdiv > div > button > img {
         padding-bottom: 0px;
         padding-left: 25px;
     }
 
-    .storiesdiv>div>button>span {
+    .storiesdiv > div > button > span {
         width: 116px;
         height: 32px;
 
@@ -153,17 +154,130 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 32px;
+        color: #ffffff;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-right: 30px;
+    }
+}
+@media (max-width: 390px) {
+    .storiesdiv {
+        background-image: url(../mobile_image/Footer.jpg);
+        width: 390px;
+        height: 693px;
+    }
+
+    .storiesdiv > div {
+        background: rgba(255, 255, 255, 0.7);
+        width: 390px;
+        height: 628px;
+        margin-left: 0;
+    }
+
+    .story {
+        display: flex;
+        width: 360px;
+        height: 130px;
+        margin-bottom: 15px;
+    }
+
+    .ImageStoriesTaihaland {
+        background-image: url(../mobile_image/story1.jpg);
+    }
+    .ImageStoriesUtah {
+        background-image: url(../mobile_image/story2.jpg);
+    }
+    .ImageStoriesMountains {
+        background-image: url(../mobile_image/story3.jpg);
+    }
+    .ImageStoriesLongest {
+        background-image: url(../mobile_image/story4.jpg);
+    }
+    .ImgStories {
+        margin: 0;
+        width: 155px;
+        height: 130px;
+        filter: drop-shadow(0px 4px 4px #0d606f);
+        border-radius: 16px;
+    }
+
+    .PStories {
+        width: 195px;
+        height: 102px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        overflow: hidden;
+        color: #0d606f;
+    }
+    .H3Stories {
+        padding-left: 0px;
+        width: 170px;
+        height: 13px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 10px;
+        color: #0d606f;
+    }
+
+    .AStories {
+        color: #0d606f;
+        height: 102px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+    }
+
+    .storiesdiv > div > button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 32px;
+        gap: 6px;
+        width: 92px;
+        height: 30px;
+        background: #0d606f;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+            0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: none;
+    }
+
+    .storiesdiv > div > button > img {
+        padding-bottom: 0px;
+        padding-left: 25px;
+    }
+
+    .storiesdiv > div > button > span {
+        width: 49px;
+        height: 15px;
+
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
         /* identical to box height */
 
+        display: flex;
+        align-items: center;
+        text-align: right;
 
-        color: #FFFFFF;
-
+        color: #ffffff;
 
         /* Inside auto layout */
 
         flex: none;
         order: 1;
         flex-grow: 0;
-        padding-right: 30px;
     }
 }

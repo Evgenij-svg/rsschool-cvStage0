@@ -212,14 +212,21 @@
         height: 30px;
         border: 0;
         background: transparent;
+        background-repeat: no-repeat
     }
 
-    .ArrowsSlide {
+    .ArrowsSlides {
         margin-top: -40px;
         display: flex;
         flex-direction: row;
+        
     }
-
+    .ArrowSlide1{
+        background-image: url("../mobile_image/ep_arrow-up-bold.svg");
+    }
+    .ArrowSlide2{
+        background-image: url("../mobile_image/arrow.svg");
+    }
     .eclipses {
         display: flex;
         flex-direction: row;
