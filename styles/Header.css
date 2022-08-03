@@ -117,6 +117,7 @@
         width: 390px;
         height: 251px;
         background-image: url('../mobile_image/Header.jpg');
+        
     }
     header > div {
         width: 390px;
@@ -127,6 +128,7 @@
             rgba(13, 96, 111, 0) 25.1%
         );
         display: flex;
+        
     }
     header > div > div {
         display: none;
@@ -146,7 +148,8 @@
     }
     nav {
         position: absolute;
-        left:600px;
+        left:225px;
+        top:-300px;
         width: 165px;
         height: 250px;
         background: #f2785c;

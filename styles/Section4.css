@@ -6,8 +6,8 @@
     .stories > h2 {
         width: 700px;
         height: 53px;
-        margin-top: 80px;
-        margin-left: 575px;
+        margin-top: 75px;
+        margin-left: 555px;
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 600;
@@ -36,13 +36,16 @@
     .story {
         display: flex;
     }
-
-    .story > div {
+    .StoryText{
+        padding: 0;
+        margin: 0;
         margin-left: 40px;
+        margin-top: 35px;
     }
-
+    .story1>div>h3{
+        margin-top: 15px;
+    }
     .H3Stories {
-        padding-left: 0px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
@@ -50,80 +53,67 @@
         line-height: 42px;
         color: #0d606f;
         margin: 0px;
-        padding-bottom: 0;
+        padding: 0;
         width: 760px;
         height: 42px;
     }
 
     .AStories {
+        margin: 0;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
         color: #0d606f;
+        text-decoration: underline;
     }
 
     .PStoriesPC {
+        margin: 0px;
+        width: 760px;
+        height: 140px;
         padding-left: 0px;
+        margin-top: 25px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         color: #0d606f;
-        margin: 0px;
-        width: 760px;
-        height: 184px;
-        margin-top: 25px;
+        
+        
     }
     .PStoriesMobile{
         display:none;
     }
     .ImageStoriesTaihaland {
+        margin-top: 40px;
         background-image: url("../img/Taihaland.jpg");
     }
     .ImageStoriesUtah {
         background-image: url("../img/Utah.jpg");
+        margin-top: 30px;
     }
     .ImageStoriesMountains {
         background-image: url("../img/Mountains.jpg");
+        margin-top: 30px;
     }
     .ImageStoriesLongest {
         background-image: url("../img/Longest.jpg");
+        margin-top: 30px;
     }
     .ImgStories {
+        margin-left: 120px;
         filter: drop-shadow(0px 4px 4px #0d606f);
         border-radius: 16px;
         margin-left: 120px;
         width: 400px;
         height: 250px;
-        margin: 0;
-        margin-top: 40px;
+        margin-right: 0;
+        
     }
 
-    .story2 > img {
-        margin-top: 30px;
-    }
-
-    .story3 > img {
-        margin-top: 30px;
-    }
-
-    .story4 > img {
-        margin-top: 30px;
-    }
-
-    .story1 > div > h3 {
-        padding-top: 40px;
-    }
-
-    .story2 > div > h3 {
-        padding-top: 30px;
-    }
-
-    .story3 > div > h3 {
-        padding-top: 30px;
-    }
-
-    .story4 > div > h3 {
-        padding-top: 30px;
-    }
 
     .storiesdiv > div > button {
         display: flex;
@@ -134,7 +124,7 @@
         width: 228px;
         height: 59px;
         margin-left: 610px;
-        margin-top: 35px;
+        margin-top: 45px;
         background: #0d606f;
         box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
             0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -144,7 +134,7 @@
 
     .storiesdiv > div > button > img {
         padding-bottom: 0px;
-        padding-left: 25px;
+        padding-left: 30px;
     }
 
     .storiesdiv > div > button > span {
@@ -160,7 +150,7 @@
         flex: none;
         order: 1;
         flex-grow: 0;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 }
 @media (max-width: 390px) {

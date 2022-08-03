@@ -9,8 +9,8 @@ h2 {
     font-family: 'Red Hat Text';
     font-style: normal;
 }
-html {
-    scroll-behavior: smooth;
+* html body{
+    scroll-behavior: smooth !important;
 }
 @media (min-width: 391px) {
     h2 {

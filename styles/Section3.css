@@ -1,8 +1,9 @@
 @media (min-width: 391px) {
     .destinations>h2 {
-        width: 501px;
+        width: 600px;
         height: 53px;
         margin-top: 96px;
+        margin-left: 470px;
         letter-spacing: 0.7px;
     }
 
