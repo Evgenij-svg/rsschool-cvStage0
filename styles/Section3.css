@@ -1,4 +1,4 @@
-@media (min-width: 390px) {
+@media (min-width: 391px) {
     .destinations>h2 {
         width: 501px;
         height: 53px;
@@ -147,31 +147,41 @@
 }
 
 @media (max-width: 390px) {
+    .destinations {
+        width: 390px;
+        overflow: hidden;
+        margin-top: 20px;
+        
+    }
+    .destinations>h2 {
+        margin-left: 107px;
+        letter-spacing: 0.8px;
+    }
     .Images_destinations {
         display: flex;
         flex-direction: row;
         /*align-items: center;*/
         justify-content: start;
-        margin-top: 45px;
+        margin-top: 19px;
         /* width: 1440px;
     overflow: hidden;*/
     }
 
-    .destinations {
-        width: 390px;
-        overflow-x: hidden;
-    }
+
 
     .SpanDestinations {
+        padding-left: 15px;
+        padding-top: 6px;
         font-family: 'Red Hat Text';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 800;
         font-size: 20px;
         line-height: 26px;
         width: 60px;
         height: 26px;
         color: #FFFFFF;
         margin: 0;
+        letter-spacing: 0.7px;
     }
 
     .USA {
@@ -216,15 +226,17 @@
     }
 
     .ArrowsSlides {
-        margin-top: -40px;
+        margin-top: -120px;
         display: flex;
         flex-direction: row;
         
     }
     .ArrowSlide1{
+        margin-left: 20px;
         background-image: url("../mobile_image/ep_arrow-up-bold.svg");
     }
     .ArrowSlide2{
+        margin-left: 285px;
         background-image: url("../mobile_image/arrow.svg");
     }
     .eclipses {
@@ -232,21 +244,12 @@
         flex-direction: row;
         width: 100px;
         margin-left: 100px;
-        margin-top: 0px;
+        margin-top: 69px;
+        margin-left: 175px;
     }
 
     .eclipses1 {
         margin-left: 0;
-        margin-right: 0;
-        width: 8px;
-        height: 8px;
-        background: rgba(242, 120, 92, 0.5);
-        border-radius: 10px;
-
-    }
-
-    .eclipses2 {
-        margin-left: 10px;
         margin-right: 0;
         width: 8px;
         height: 8px;
@@ -255,8 +258,18 @@
 
     }
 
+    .eclipses2 {
+        margin-left: 6px;
+        margin-right: 6px;
+        width: 8px;
+        height: 8px;
+        background: rgba(242, 120, 92, 0.5);
+        border-radius: 10px;
+
+    }
+
     .eclipses3 {
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 0;
         width: 8px;
         height: 8px;
@@ -268,7 +281,7 @@
 
     .destinations>button {
         /* Auto layout */
-
+        margin-top: 23px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -284,11 +297,14 @@
         border-radius: 10px;
         border: none;
     }
-
+    .destinations>button>img{
+        width:8.75px;
+        height:5.63px;
+    }
     .destinations>button>span {
         width: 52px;
         height: 15px;
-        
+        margin-top: -3px;
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 500;

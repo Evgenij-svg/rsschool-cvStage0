@@ -1,4 +1,4 @@
-@media (min-width: 390px) {
+@media (min-width: 391px) {
     .preview {
         width: 1440px;
         margin-top: -670px;
@@ -107,10 +107,10 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width:390px) {
     .preview {
         width: 390px;
-        margin-top: -150px;
+        margin-top: -110px;
     }
 
     h1 {
@@ -130,14 +130,14 @@
     }
 
     .WhatWould>span {
-        width: 226.01px;
+        width: 230px;
         height: 11.12px;
         font-family: 'Aleo';
         font-style: italic;
         font-weight: 400;
         font-size: 14px;
         line-height: 17px;
-
+        
         color: #F2785C;
     }
 
@@ -160,12 +160,12 @@
     .StartPlanning>span {
         width: 74px;
         height: 15px;
-
+        letter-spacing: 0.3px;
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 500;
         font-size: 11px;
-        line-height: 15px;
+        line-height: 13px;
         /* identical to box height */
 
         display: flex;
