@@ -1,4 +1,4 @@
-@media (min-width: 390px) {
+@media (min-width: 391px) {
     .stories {
         width: 1440px;
     }
@@ -6,8 +6,8 @@
     .stories > h2 {
         width: 700px;
         height: 53px;
-        margin-top: 80px;
-        margin-left: 575px;
+        margin-top: 75px;
+        margin-left: 555px;
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 600;
@@ -36,13 +36,16 @@
     .story {
         display: flex;
     }
-
-    .story > div {
+    .StoryText{
+        padding: 0;
+        margin: 0;
         margin-left: 40px;
+        margin-top: 35px;
     }
-
+    .story1>div>h3{
+        margin-top: 15px;
+    }
     .H3Stories {
-        padding-left: 0px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
@@ -50,78 +53,67 @@
         line-height: 42px;
         color: #0d606f;
         margin: 0px;
-        padding-bottom: 0;
+        padding: 0;
         width: 760px;
         height: 42px;
     }
 
     .AStories {
+        margin: 0;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
         color: #0d606f;
+        text-decoration: underline;
     }
 
-    .PStories {
+    .PStoriesPC {
+        margin: 0px;
+        width: 760px;
+        height: 140px;
         padding-left: 0px;
+        margin-top: 25px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 400;
         font-size: 20px;
         line-height: 24px;
         color: #0d606f;
-        margin: 0px;
-        width: 760px;
-        height: 184px;
-        margin-top: 25px;
+        
+        
     }
-
+    .PStoriesMobile{
+        display:none;
+    }
     .ImageStoriesTaihaland {
-        background-image: url(../img/Taihaland.jpg);
+        margin-top: 40px;
+        background-image: url("../img/Taihaland.jpg");
     }
     .ImageStoriesUtah {
-        background-image: url(../img/Utah.jpg);
+        background-image: url("../img/Utah.jpg");
+        margin-top: 30px;
     }
     .ImageStoriesMountains {
-        background-image: url(../img/Mountains.jpg);
+        background-image: url("../img/Mountains.jpg");
+        margin-top: 30px;
     }
     .ImageStoriesLongest {
-        background-image: url(../img/Longest.jpg);
+        background-image: url("../img/Longest.jpg");
+        margin-top: 30px;
     }
     .ImgStories {
+        margin-left: 120px;
         filter: drop-shadow(0px 4px 4px #0d606f);
         border-radius: 16px;
         margin-left: 120px;
         width: 400px;
         height: 250px;
-        margin: 0;
-        margin-top: 40px;
+        margin-right: 0;
+        
     }
 
-    .story2 > img {
-        margin-top: 30px;
-    }
-
-    .story3 > img {
-        margin-top: 30px;
-    }
-
-    .story4 > img {
-        margin-top: 30px;
-    }
-
-    .story1 > div > h3 {
-        padding-top: 40px;
-    }
-
-    .story2 > div > h3 {
-        padding-top: 30px;
-    }
-
-    .story3 > div > h3 {
-        padding-top: 30px;
-    }
-
-    .story4 > div > h3 {
-        padding-top: 30px;
-    }
 
     .storiesdiv > div > button {
         display: flex;
@@ -132,7 +124,7 @@
         width: 228px;
         height: 59px;
         margin-left: 610px;
-        margin-top: 35px;
+        margin-top: 45px;
         background: #0d606f;
         box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
             0px 2px 3px rgba(13, 96, 111, 0.16);
@@ -142,7 +134,7 @@
 
     .storiesdiv > div > button > img {
         padding-bottom: 0px;
-        padding-left: 25px;
+        padding-left: 30px;
     }
 
     .storiesdiv > div > button > span {
@@ -158,16 +150,22 @@
         flex: none;
         order: 1;
         flex-grow: 0;
-        padding-right: 30px;
+        padding-right: 40px;
     }
 }
 @media (max-width: 390px) {
+    .stories{
+        margin-top: 20px;
+    }
+    .stories>h2{
+        margin-left: 140px;
+    }
     .storiesdiv {
+        margin-top: 10px;
         background-image: url(../mobile_image/Footer.jpg);
         width: 390px;
         height: 693px;
     }
-
     .storiesdiv > div {
         background: rgba(255, 255, 255, 0.7);
         width: 390px;
@@ -183,38 +181,64 @@
     }
 
     .ImageStoriesTaihaland {
-        background-image: url(../mobile_image/story1.jpg);
+
+        background-image: url("../mobile_image/story1.jpg");
     }
     .ImageStoriesUtah {
-        background-image: url(../mobile_image/story2.jpg);
+
+        background-image: url("../mobile_image/story2.jpg");
     }
     .ImageStoriesMountains {
-        background-image: url(../mobile_image/story3.jpg);
+
+        background-image: url("../mobile_image/story3.jpg");
     }
     .ImageStoriesLongest {
-        background-image: url(../mobile_image/story4.jpg);
+
+        background-image: url("../mobile_image/story4.jpg");
     }
+
+    
+
+
+
     .ImgStories {
-        margin: 0;
+        margin-top: 10px;
+        margin-left: 0;
         width: 155px;
         height: 130px;
         filter: drop-shadow(0px 4px 4px #0d606f);
         border-radius: 16px;
     }
-
-    .PStories {
+    .PStoriesPC{
+        display: none;
+    }
+    .PStoriesMobile {
+        display: block;
         width: 195px;
-        height: 102px;
+        height: 82px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        margin-top: -2px;
+        margin-left: 5px;
+    }
+    .AStories {
+        color: #0d606f;
+        height: 20px;
         font-family: 'Aleo';
         font-style: normal;
         font-weight: 700;
-        font-size: 11px;
-        line-height: 13px;
-        overflow: hidden;
-        color: #0d606f;
+        font-size: 9px;
+        line-height: 11px;
+        margin-top: 0;
+        margin-left: 5px;
     }
     .H3Stories {
-        padding-left: 0px;
+        margin-top: 15px;
+        margin-left: 3px;
         width: 170px;
         height: 13px;
         font-family: 'Aleo';
@@ -226,21 +250,14 @@
         color: #0d606f;
     }
 
-    .AStories {
-        color: #0d606f;
-        height: 102px;
-        font-family: 'Aleo';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 11px;
-        line-height: 13px;
-    }
+
 
     .storiesdiv > div > button {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
+        margin-top: 20px;
         padding: 10px 32px;
         gap: 6px;
         width: 92px;
@@ -253,14 +270,16 @@
     }
 
     .storiesdiv > div > button > img {
-        padding-bottom: 0px;
-        padding-left: 25px;
+        padding-top: 0px;
+        padding-left: 0px;
+        width:8.75px;
+        height:5.63px;
     }
 
     .storiesdiv > div > button > span {
         width: 49px;
         height: 15px;
-
+        margin-top:-2px;
         font-family: 'Red Hat Text';
         font-style: normal;
         font-weight: 500;

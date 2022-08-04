@@ -9,40 +9,30 @@ h2 {
     font-family: 'Red Hat Text';
     font-style: normal;
 }
-
-@media (min-width: 390px) {
-    html {
-        scroll-behavior: smooth;
-
-        /* свойство scroll-behavior не наследуется, применяется к прокручиваемым блокам */
-    }
-
-
+* html body{
+    scroll-behavior: smooth !important;
+}
+@media (min-width: 391px) {
     h2 {
-
-        font-weight: 600;
+        font-weight: bolder;
         font-size: 40px;
         line-height: 53px;
         /* identical to box height */
-        letter-spacing: 0.6px;
-
     }
 
     a {
         cursor: pointer;
         text-decoration: none;
-
     }
 
     button {
         cursor: pointer;
-        transition: .5s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
 
     button:hover {
         border: 4px double black;
     }
-
 }
 
 @media (max-width: 390px) {
@@ -51,4 +41,11 @@ h2 {
         font-size: 14px;
         line-height: 19px;
     }
+
+
+    .Brightness {
+        filter: brightness(100%); 
+        transition: all 0.5s;
+    }
+
 }
