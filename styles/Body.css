@@ -9,10 +9,11 @@ h2 {
     font-family: 'Red Hat Text';
     font-style: normal;
 }
-* html body{
+html {
     scroll-behavior: smooth !important;
 }
 @media (min-width: 391px) {
+    
     h2 {
         font-weight: bolder;
         font-size: 40px;
@@ -41,11 +42,12 @@ h2 {
         font-size: 14px;
         line-height: 19px;
     }
-
-
-    .Brightness {
-        filter: brightness(100%); 
+    .Brightness{
+        display: none;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(20,20,20,0.1);
         transition: all 0.5s;
     }
-
 }
