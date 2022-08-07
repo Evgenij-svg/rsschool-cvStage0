@@ -1,39 +1,78 @@
-footer>span {
-    width: 260px;
-    height: 21px;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 21px;
+@media (min-width: 391px) {
+    footer>span {
+        width: 260px;
+        height: 21px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        
+        color: #FFFFFF;
+        margin-top: 20px; 
+        margin-left: 420px;
+        margin-right: 0;
+    }
+    footer{
+        margin-top:-60px ;
+        width: 1440px;
+        display: flex;
+        flex-direction: row;
+    }
+    footer>a{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    img[src$="github.svg"]{
+        margin-left: 20px;
+    }
+    img[src$="instagram.svg"]{
+        margin-left: 330px;
+        margin-top: 10px;
+    }
+    img[src$="youtube.svg"]{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    img[src$="twitter.svg"]{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
     
-    color: #FFFFFF;
-    margin-top: 20px; 
-    margin-left: 420px;
-    margin-right: 0;
 }
-footer{
-    margin-top:-60px ;
-    width: 1440px;
-    display: flex;
-    flex-direction: row;
-}
-footer>a{
-    margin-left: 0;
-    margin-right: 0;
-}
-img[src$="github.svg"]{
-    margin-left: 20px;
-}
-img[src$="instagram.svg"]{
-    margin-left: 330px;
-    margin-top: 10px;
-}
-img[src$="youtube.svg"]{
-    margin-left: 20px;
-    margin-top: 10px;
-}
-img[src$="twitter.svg"]{
-    margin-left: 20px;
-    margin-top: 10px;
+@media (max-width: 390px) {
+    footer{
+        margin-top:-60px ;
+        /*width: 390px;*/
+        display: flex;
+        flex-direction: row;
+    }
+    footer>a{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    footer>span{
+        display: none;
+    }
+    img[src$="github.svg"]{
+        display: none;
+    }
+    img[src$="rs_school.svg"]{
+        display: none;
+    }
+    img[src$="instagram.svg"]{
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 130px;
+    }
+    img[src$="youtube.svg"]{
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    img[src$="twitter.svg"]{
+        margin: 0;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
 }

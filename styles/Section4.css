@@ -1,157 +1,302 @@
-.stories{
-    width: 1440px;
+@media (min-width: 391px) {
+    .stories {
+        width: 1440px;
+    }
+
+    .stories > h2 {
+        width: 700px;
+        height: 53px;
+        margin-top: 75px;
+        margin-left: 555px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 53px;
+        /* identical to box height */
+        letter-spacing: 0.8px;
+
+        color: #f2785c;
+    }
+
+    .storiesdiv {
+        background-image: url(../img/BG_footer_section4.jpg);
+        width: 1445px;
+        height: 1331px;
+        margin-top: 40px;
+    }
+
+    .storiesdiv > div {
+        background: rgba(255, 255, 255, 0.7);
+        width: 1445px;
+        height: 1270px;
+        margin-left: 0;
+    }
+
+    .story {
+        display: flex;
+    }
+    .StoryText{
+        padding: 0;
+        margin: 0;
+        margin-left: 40px;
+        margin-top: 35px;
+    }
+    .story1>div>h3{
+        margin-top: 15px;
+    }
+    .H3Stories {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 42px;
+        color: #0d606f;
+        margin: 0px;
+        padding: 0;
+        width: 760px;
+        height: 42px;
+    }
+
+    .AStories {
+        margin: 0;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0d606f;
+        text-decoration: underline;
+    }
+
+    .PStoriesPC {
+        margin: 0px;
+        width: 760px;
+        height: 140px;
+        padding-left: 0px;
+        margin-top: 25px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0d606f;
+        
+        
+    }
+    .PStoriesMobile{
+        display:none;
+    }
+    .ImageStoriesTaihaland {
+        margin-top: 40px;
+        background-image: url("../img/Taihaland.jpg");
+    }
+    .ImageStoriesUtah {
+        background-image: url("../img/Utah.jpg");
+        margin-top: 30px;
+    }
+    .ImageStoriesMountains {
+        background-image: url("../img/Mountains.jpg");
+        margin-top: 30px;
+    }
+    .ImageStoriesLongest {
+        background-image: url("../img/Longest.jpg");
+        margin-top: 30px;
+    }
+    .ImgStories {
+        margin-left: 120px;
+        filter: drop-shadow(0px 4px 4px #0d606f);
+        border-radius: 16px;
+        margin-left: 120px;
+        width: 400px;
+        height: 250px;
+        margin-right: 0;
+        
+    }
+
+
+    .storiesdiv > div > button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        width: 228px;
+        height: 59px;
+        margin-left: 610px;
+        margin-top: 45px;
+        background: #0d606f;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+            0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: 1px none black;
+    }
+
+    .storiesdiv > div > button > img {
+        padding-bottom: 0px;
+        padding-left: 30px;
+    }
+
+    .storiesdiv > div > button > span {
+        width: 116px;
+        height: 32px;
+
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: #ffffff;
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        padding-right: 40px;
+    }
 }
-.stories>h2 {
-    width: 700px;
-    height: 53px;
-    margin-top: 80px;
-    margin-left:575px ;
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 53px;
-    /* identical to box height */
-    letter-spacing: 0.8px;
+@media (max-width: 390px) {
+    .stories{
+        margin-top: 20px;
+    }
+    .stories>h2{
+        margin-left: 140px;
+    }
+    .storiesdiv {
+        margin-top: 10px;
+        background-image: url(../mobile_image/Footer.jpg);
+        width: 390px;
+        height: 693px;
+    }
+    .storiesdiv > div {
+        background: rgba(255, 255, 255, 0.7);
+        width: 390px;
+        height: 628px;
+        margin-left: 0;
+    }
 
-    color: #F2785C;
+    .story {
+        display: flex;
+        width: 360px;
+        height: 130px;
+        margin-bottom: 15px;
+    }
+
+    .ImageStoriesTaihaland {
+
+        background-image: url("../mobile_image/story1.jpg");
+    }
+    .ImageStoriesUtah {
+
+        background-image: url("../mobile_image/story2.jpg");
+    }
+    .ImageStoriesMountains {
+
+        background-image: url("../mobile_image/story3.jpg");
+    }
+    .ImageStoriesLongest {
+
+        background-image: url("../mobile_image/story4.jpg");
+    }
+
+    
+
+
+
+    .ImgStories {
+        margin-top: 10px;
+        margin-left: 0;
+        width: 155px;
+        height: 130px;
+        filter: drop-shadow(0px 4px 4px #0d606f);
+        border-radius: 16px;
+    }
+    .PStoriesPC{
+        display: none;
+    }
+    .PStoriesMobile {
+        display: block;
+        width: 195px;
+        height: 82px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 9px;
+        line-height: 11px;
+        color: #0D606F;
+        margin-top: -2px;
+        margin-left: 5px;
+    }
+    .AStories {
+        color: #0d606f;
+        height: 20px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 9px;
+        line-height: 11px;
+        margin-top: 0;
+        margin-left: 5px;
+    }
+    .H3Stories {
+        margin-top: 15px;
+        margin-left: 3px;
+        width: 170px;
+        height: 13px;
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 13px;
+        margin-bottom: 10px;
+        color: #0d606f;
+    }
+
+
+
+    .storiesdiv > div > button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        padding: 10px 32px;
+        gap: 6px;
+        width: 92px;
+        height: 30px;
+        background: #0d606f;
+        box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+            0px 2px 3px rgba(13, 96, 111, 0.16);
+        border-radius: 10px;
+        border: none;
+    }
+
+    .storiesdiv > div > button > img {
+        padding-top: 0px;
+        padding-left: 0px;
+        width:8.75px;
+        height:5.63px;
+    }
+
+    .storiesdiv > div > button > span {
+        width: 49px;
+        height: 15px;
+        margin-top:-2px;
+        font-family: 'Red Hat Text';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 15px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+        text-align: right;
+
+        color: #ffffff;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
 }
-
-
-.storiesdiv {
-   background-image: url(../img/BG_footer_section4.jpg);
-    width: 1445px;
-    height: 1331px;
-    margin-top: 40px;
-     
-}
-.storiesdiv>div{
-    background:rgba(255, 255, 255, 0.7);
-    width: 1445px;
-    height: 1270px;
-    margin-left: 0;
-}
-.story {
-    display: flex;
-}
-.story>div{
-    margin-left: 40px;
-}
-.H3Stories {
-    padding-left: 0px;
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 35px;
-    line-height: 42px;
-    color: #0D606F;
-    margin: 0px;
-    padding-bottom: 0;
-    width: 760px;
-    height: 42px;
-}
-
-.AStories {
-    color: #0D606F;
-}
-
-.PStories {
-    padding-left: 0px;
-    font-family: 'Aleo';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: #0D606F;
-    margin: 0px;
-    width: 760px;
-    height: 184px;
-    margin-top: 25px;
-}
-
-.ImgStories {
-    filter: drop-shadow(0px 4px 4px #0D606F);
-    border-radius: 16px;
-    margin-left: 120px;
-    width: 400px;
-    height: 250px;
-    margin-right: 0;
-}
-
-.story1>img {
-    margin-top: 40px;
-}
-
-.story2>img {
-    margin-top: 30px;
-}
-
-.story3>img {
-    margin-top: 30px;
-}
-
-.story4>img {
-    margin-top: 30px;
-}
-
-.story1>div>h3 {
-
-    padding-top: 40px;
-}
-
-.story2>div>h3 {
-    padding-top: 30px;
-}
-
-.story3>div>h3 {
-    padding-top: 30px;
-}
-
-.story4>div>h3 {
-    padding-top: 30px;
-}
-
-.storiesdiv>div>button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    width: 228px;
-    height: 59px;
-    margin-left: 610px;
-    margin-top: 35px;
-    background: #0D606F;
-    box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
-    border-radius: 10px;
-    border: 1px none black;
-}
-
-.storiesdiv>div>button>img {
-    padding-bottom: 0px;
-    padding-left: 25px;
-}
-
-.storiesdiv>div>button>span {
-    width: 116px;
-    height: 32px;
-
-    font-family: 'Red Hat Text';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 32px;
-    /* identical to box height */
-
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 1;
-    flex-grow: 0;
-    padding-right: 30px;
-}
-
