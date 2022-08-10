@@ -13,13 +13,12 @@
   <link rel="stylesheet" href="styles/Section4.css" />
   <link rel="stylesheet" href="styles/Body.css" />
   <link rel="stylesheet" href="styles/Footer.css" />
-
+  <link rel="stylesheet" href="styles/PopUp.css" />
 </head>
 
 <body>
-  <div class="Brightness" id="CloseBurger">
+  <div class="Brightness" id="CloseBurger"></div>
 
-  </div>
   <header>
     <div>
       <img class="LogoImage" src="img/Vector.svg" />
@@ -31,12 +30,10 @@
         <a class="navA" id="CloseBurger" href="#stepsID">Plan Your Trip</a>
         <a class="navA1" id="CloseBurger" href="#destinationsiD">Destinations</a>
         <a class="navA2" id="CloseBurger" href="#storiesID">Travel Stories</a>
-        <a class="DisplayNonePC" id="CloseBurger" href="#">Account</a>
+        <a class="DisplayNonePC" id="Login" href="#">Account</a>
         <a class="DisplayNonePC" id="CloseBurger" href="#">Social Media</a>
       </nav>
-      <form class="DisplayNone">
-        <button class="Login"><span>Login</span></button>
-      </form>
+      <button class="DisplayNone LoginBTN" id="Login"><span>Login</span></button>
     </div>
   </header>
   <main>
@@ -222,7 +219,45 @@
     <a href="#"><img src="img/youtube.svg" alt="youtube" /></a>
     <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
   </footer>
-  
+
+
+  <div class="PoPupRegandLogin">
+    <h3>Log in to your account</h3>
+    <button class="Facebook">
+      <div>
+        <img src='img/Facebook-icon.svg' />
+        <span>Sign In with Facebook</span>
+      </div>
+    </button>
+    <button class="Google">
+      <div>
+        <img src='img/Google_Logo.svg' />
+        <span>Sign In with Google</span>
+      </div>
+    </button>
+    <div class="title">
+      <div></div>
+      <span>or</span>
+      <div></div>
+    </div>
+    <form>
+      <div>
+        <span>E-mail</span>
+        <input id="inputEmail" type="email" />
+      </div>
+      <div class="Password">
+        <span>Password</span>
+        <input id="inputPassword" type="password" />
+      </div>
+      <button class="sign"><span>Sign In</span></button>
+      <a href="#">Forgot Your Password?</a>
+    </form>
+    <div class="RegWindow">
+      <span>Don’t have an account?</span>
+      <a href="#" class="Registor">Register</a>
+    </div>
+  </div>
+
   <script src="scripts/index.js"></script>
 </body>
 
