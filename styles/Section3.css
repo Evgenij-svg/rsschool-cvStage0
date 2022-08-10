@@ -10,11 +10,10 @@
     .Images_destinations {
         display: flex;
         flex-direction: row;
-        /*align-items: center;*/
+        margin-left:0px;
         justify-content: center;
         margin-top: 45px;
-        /* width: 1440px;
-    overflow: hidden;*/
+        transition: all 1s;
     }
 
     .destinations {
@@ -38,6 +37,7 @@
     }
 
     .JAPAN {
+        margin: 0;
         background-image: url(../img/JAPAN.jpg);
         width: 800px;
         height: 800px;
@@ -50,7 +50,7 @@
     }
 
     .USA {
-
+        margin: 0;
         background-image: url(../img/USA.jpg);
         width: 800px;
         height: 800px;
@@ -61,6 +61,7 @@
     }
 
     .SPAIN {
+        margin: 0;
         background-image: url(../img/SPAIN.jpg);
         width: 800px;
         height: 800px;
@@ -162,8 +163,9 @@
         display: flex;
         flex-direction: row;
         /*align-items: center;*/
-        justify-content: start;
+        justify-content: center;
         margin-top: 19px;
+        
         /* width: 1440px;
     overflow: hidden;*/
     }
@@ -234,11 +236,13 @@
     }
     .ArrowSlide1{
         margin-left: 20px;
-        background-image: url("../mobile_image/ep_arrow-up-bold.svg");
+        background-image: url("../mobile_image/arrow.svg");
+        transform: rotate(180deg);
     }
     .ArrowSlide2{
         margin-left: 285px;
         background-image: url("../mobile_image/arrow.svg");
+        
     }
     .eclipses {
         display: flex;
