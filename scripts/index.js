@@ -21,7 +21,7 @@ const PopUp = document.querySelector('.PoPupRegandLogin');
 const btnSign= document.querySelector('.sign');
 let slides = 1;
 let flag = false;
-console.log(120);
+console.log(150);
 btn.onclick = function () {
     document.getElementById('BurgerMenuId').style.top = '0px';
     Brightness.style.display = 'block';
