@@ -5,3 +5,118 @@ body{
     background-size:cover;
     overflow: hidden;
 }
+.clock{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin:  auto;
+}
+.clock>span{
+    font-size: 72px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.Calendar{
+    display: flex;
+    flex-direction: row;
+    max-width: 420px;
+    width: 100%;
+    margin-left:auto;
+}
+.Calendar>span{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    
+}
+.Welcome{
+    font-size: 40px;
+    color: white;
+    width: max-content;
+    margin:  auto;
+}
+/* body{
+    background-image: url(../img/bg.jpg);
+} */
+.Player{
+    width: 100%;
+    max-width:400px;
+}
+.arrowSong{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:220px ;
+    width: 100%
+}
+.titlesSong{
+    display: flex;
+    flex-direction: column;
+}
+.titlesSong>span{
+    font-size: 30px;
+    color: rgba(255,255,255,0.5);
+    text-shadow: 1px 1px 5px black;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+.SliderPrev{
+    margin-left: 120px;
+}
+.SliderNext{
+    margin-right: 120px;
+}
+.titleSongNow{
+    color:white !important;
+    text-shadow: 1px 1px 5px black;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+.quote>span{
+    font-size: 20px;
+    color: white;
+    width: max-content;
+    margin:  auto;
+    text-shadow: 1px 1px 5px black;
+}
+
+.city{
+    width: 170px;
+    height: 34px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+}
+.Weather{
+    display:flex;
+    flex-direction: column;
+}
+.Weather>span{
+    font-size: 20px;
+    color: white;
+    width: max-content;
+    text-shadow: 1px 1px 5px black;
+}
+.DataDay{
+    margin-left: auto;
+    margin-right: 30px;
+}
+body{
+    background-blend-mode: multiply;
+    transition: background-image 1s ease-in-out;
+}
+input::placeholder {
+   color:white;
+   font-size: 20px;
+  }

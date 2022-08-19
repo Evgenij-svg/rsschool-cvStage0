@@ -1,15 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style/style.css">
-    
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
+
 <body>
-    <script src='scripts/script.js'></script>
-    
+  <div class="opaciySlider">
+    <div class="flex">
+      <div class="Player">
+        <div class="arrowSong">
+          <img class="PrevSong" src="svg/play-prev.svg" />
+          <img class="Play" src="svg/play.svg" />
+          <img class="NextSong" src="svg/play-next.svg" />
+          <audio class="audio" src="audio/song1.mp3"></audio>
+        </div>
+        <div class="titlesSong"></div>
+      </div>
+      <div class="DataDay">
+        <div class="Calendar">
+          <span class="Days"></span>
+          <span class="Date"></span>
+          <span class="Mounths"></span>
+        </div>
+        <div class="Weather">
+          <input type="text" class="city" value="Minsk" placeholder="enter the city">
+          <span class="TempAndWeather"></span>
+          <span class="WindSpeed"></span>
+          <span class="Humidity"></span>
+        </div>
+      </div>
+    </div>
+    <div class="flex">
+      <img src="svg/slider-prev.svg" class="SliderPrev" />
+      <div class="clock">
+        <span class="hours"></span>
+        <span class="minutes"></span>
+        <span class="second"></span>
+      </div>
+      <img src="svg/slider-next.svg" class="SliderNext" />
+    </div>
+    <div class="Welcome"></div>
+    <div class="quote">
+      <img src="svg/reload.svg" class="reload" style="display: none" height="32" />
+      <span class="Author">
+
+      </span>
+      <span class="Quote">
+
+      </span>
+    </div>
+
+    </span>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/audio.js"></script>
+  <script src="scripts/slider.js"></script>
+  <script src="scripts/quote.js" async></script>
+  <script src="scripts/Weather.js" async type="module"></script>
 </body>
+
 </html>
