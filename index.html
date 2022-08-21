@@ -20,7 +20,22 @@
           <img class="NextSong" src="svg/play-next.svg" />
           <audio class="audio" src="audio/song1.mp3"></audio>
         </div>
-        <div class="titlesSong"></div>
+        <span class="TitleSong"></span>
+        <div class="ContainerBar flex ">
+          
+          <div class="TimeSong">
+            <span class="CurentTime"></span>
+            <span class="Duration"></span>
+          </div>
+          <div class="progressBar">
+            <div class="progress"></div>
+          </div>
+          <img src="svg/volume.svg"/ height="20" class="img_volume" >
+          <input class="jcpvolume" type="range" min="0" max="10" value="5" step="0.1" />
+          
+        </div>
+          <div class="titlesSong"></div>
+        
       </div>
       <div class="DataDay">
         <div class="Calendar">
@@ -29,7 +44,7 @@
           <span class="Mounths"></span>
         </div>
         <div class="Weather">
-          <input type="text" class="city" value="Minsk" placeholder="enter the city">
+          <input type="text" class="city" value="Minsk">
           <span class="TempAndWeather"></span>
           <span class="WindSpeed"></span>
           <span class="Humidity"></span>
@@ -57,13 +72,17 @@
     </div>
 
     </span>
+    <select name="language" class="language">
+      <option value="en">en</option>
+      <option value="ru">ru</option>
+  </select>
   </div>
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="scripts/language.js"></script>
   <script src="scripts/date.js"></script>
   <script src="scripts/audio.js"></script>
   <script src="scripts/slider.js"></script>
   <script src="scripts/quote.js" async></script>
-  <script src="scripts/Weather.js" async type="module"></script>
+  <script src="scripts/Weather.js" async></script>
 </body>
 
 </html>

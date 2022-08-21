@@ -1,4 +1,4 @@
-const body = document.querySelector('body');
+const bodyImage = document.querySelector('body');
 
 function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min) + min);
@@ -10,7 +10,7 @@ let url = `url(https://raw.githubusercontent.com/rolling-scopes-school/stage1-ta
     randomSlide
 )}.jpg)`;
 let url2;
-body.style.backgroundImage = url;
+bodyImage.style.backgroundImage = url;
 
 const ArrowPrev = document.querySelector('.SliderPrev');
 const ArrowNext = document.querySelector('.SliderNext');
@@ -27,12 +27,12 @@ ArrowPrev.onclick = function () {
     if (randomSlide < 1) {
         randomSlide = 20;
     }
-    // body.style.opacity='0.5';
+    // bodyImage.style.opacity='0.5';
     url = `url(https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${TimeWord}/${addZero(randomSlide)}.jpg)`;
     //     url2=`url(https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${TimeWord}/${addZero(PrevRandomSlide)}.jpg)`
-    //    body.style.background=` center / contain no-repeat url(${url}),#eee 35% url(${url2})`
+    //    bodyImage.style.background=` center / contain no-repeat url(${url}),#eee 35% url(${url2})`
     //
-    body.style.backgroundImage = url;
+    bodyImage.style.backgroundImage = url;
 };
 ArrowNext.onclick = function () {
     PrevRandomSlide = randomSlide;
@@ -44,12 +44,12 @@ ArrowNext.onclick = function () {
     if (randomSlide > 20) {
         randomSlide = 1;
     }
-    // body.style.opacity='0.5';
+    // bodyImage.style.opacity='0.5';
     url = `url(https://raw.githubusercontent.com/rolling-scopes-school/stage1-tasks/assets/images/${TimeWord}/${addZero(randomSlide)}.jpg)`;
-    body.style.backgroundImage = url;
+    bodyImage.style.backgroundImage = url;
 };
 
-body.addEventListener('transitionend', function () {
+bodyImage.addEventListener('transitionend', function () {
     console.log(1);
     flagSlider=true;
 });

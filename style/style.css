@@ -53,10 +53,11 @@ body{
     display: flex;
     flex-direction: column;
 }
-.titlesSong>span{
+.titlesSong>div>span{
     font-size: 30px;
     color: rgba(255,255,255,0.5);
     text-shadow: 1px 1px 5px black;
+    margin-right: 10px;
 }
 .flex{
     display: flex;
@@ -113,6 +114,7 @@ body{
     margin-right: 30px;
 }
 body{
+    background: url() center/cover, rgba(0, 0, 0, 0.5);
     background-blend-mode: multiply;
     transition: background-image 1s ease-in-out;
 }
@@ -120,3 +122,51 @@ input::placeholder {
    color:white;
    font-size: 20px;
   }
+
+.progressBar{
+    max-width:220px ;
+    margin: 10px 0;
+    height: 10px;
+    width: 100%;
+    border: black 2px solid;
+    border-radius: 10px;
+
+}
+.progress{
+    height: 6px;
+    background-color: aqua;
+    border-radius: 6px;
+    margin: 2px 0;
+}
+
+.jcpvolume{
+    width: 100%;
+    max-width: 50px;
+}
+.img_volume{
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.TitleSong{
+    color:white;
+   font-size: 40px;
+   margin-left: 20%;
+}
+.ContainerBar{
+    margin-top: 0;
+}
+.TimeSong{
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.TimeSong>span{
+    color:white;
+    font-size: 20px;
+    
+}
+.reload{
+    width: max-content;
+    margin: auto;
+}
