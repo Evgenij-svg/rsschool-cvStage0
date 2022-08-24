@@ -1,264 +1,124 @@
 <!DOCTYPE html>
-<html lang="zxx">
+
+<html lang="en">
 
 <head>
-  <meta charset="utf-8" />
-  <title>Travel</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" href="img/Logo.ico" type="image/x-icon" />
-  <link rel="stylesheet" href="styles/Header.css" />
-  <link rel="stylesheet" href="styles/Section1.css" />
-  <link rel="stylesheet" href="styles/Section2.css" />
-  <link rel="stylesheet" href="styles/Section3.css" />
-  <link rel="stylesheet" href="styles/Section4.css" />
-  <link rel="stylesheet" href="styles/Body.css" />
-  <link rel="stylesheet" href="styles/Footer.css" />
-  <link rel="stylesheet" href="styles/PopUp.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
 </head>
 
 <body>
-  <div class="Brightness" id="CloseBurger"></div>
+  <div class="flex">
+    <div class="Player realotiv">
+      <div class="arrowSong">
+        <img class="PrevSong" src="svg/play-prev.svg" />
+        <img class="Play" src="svg/play.svg" />
+        <img class="NextSong" src="svg/play-next.svg" />
+        <audio class="audio" src="audio/song1.mp3"></audio>
+      </div>
+      <span class="TitleSong"></span>
+      <div class="ContainerBar flex ">
 
-  <header>
-    <div>
-      <img class="LogoImage" src="img/Vector.svg" />
-      <img id="BurgerID" src="mobile_image/burger.svg" />
-      <span class="travelPortal DisplayNone">Travel Portal</span>
-      <nav class="BurgerMenu" id="BurgerMenuId">
-        <img id="CloseBurger" class="DisplayNonePC Cross" src="mobile_image/cross.svg" />
-        <a href="#previewID" id="CloseBurger">How It Works</a>
-        <a class="navA" id="CloseBurger" href="#stepsID">Plan Your Trip</a>
-        <a class="navA1" id="CloseBurger" href="#destinationsiD">Destinations</a>
-        <a class="navA2" id="CloseBurger" href="#storiesID">Travel Stories</a>
-        <a class="DisplayNonePC" id="Login" href="#">Account</a>
-        <a class="DisplayNonePC" id="CloseBurger" href="#">Social Media</a>
-      </nav> 
-      <button class="DisplayNone LoginBTN" id="Login"><span>Login</span></button>
+        <div class="TimeSong">
+          <span class="CurentTime"></span>
+          <span class="Duration"></span>
+        </div>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+        <img src="svg/volume.svg" / height="20" class="img_volume">
+        <input class="jcpvolume" type="range" min="0" max="10" value="5" step="0.1" />
+
+      </div>
+      <div class="titlesSong"></div>
+
     </div>
-  </header>
-  <main>
-    <section class="preview " id="previewID">
-      <h1>Explore the beauty of the World</h1>
-      <div>
-        Receive personalized recommendations for countries, hotels, activities
-        and more
+    <div class="DataDay ">
+      <div class="Calendar realotiv">
+        <span class="Days"></span>
+        <span class="Date"></span>
+        <span class="Mounths"></span>
       </div>
-      <div class="WhatWould ">
-        <span>What would you like to do?</span>
-        <button class="StartPlanning"><span>Start Planning</span></button>
+      <div class="Weather realotiv">
+        <input type="text" class="city Text" value="Minsk">
+        <span class="TempAndWeather"></span>
+        <span class="WindSpeed"></span>
+        <span class="Humidity"></span>
       </div>
-    </section>
-
-    <section class="steps" id="stepsID">
-      <h2>3 STEPS TO THE PERFECT TRIP</h2>
-      <div>
-        <div class="stepsdiv Velo">
-          <img src="img/Velo.svg" alt="velic" />
-          <span class="stepsSpan">Tell us what you want to do</span>
-        </div>
-        <div class="stepsdiv Calendar">
-          <img src="img/calendar.svg" alt="calendar" />
-          <span class="stepsSpan">Share us preferable dates </span>
-        </div>
-        <div class="stepsdiv Samalet">
-          <img src="img/samalet.svg" alt="Samalet" />
-          <span class="stepsSpan">We will give you recommendations</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="destinations" id="destinationsiD">
-      <h2>POPULAR DESTINATIONS</h2>
-      <div class="Images_destinations">
-        <div class="SPAIN stepsdiv">
-          <span class="SpanDestinations">SPAIN</span>
-          <!-- <div></div> -->
-        </div>
-        <div class="JAPAN stepsdiv">
-          <span class="SpanDestinations">JAPAN</span>
-        </div>
-        <div class="USA stepsdiv">
-          <span class="SpanDestinations">USA</span>
-          <!-- <div></div> -->
-        </div>
-      </div>
-      <div class="ArrowsSlides">
-        <button class="ArrowSlide1 ArrowSlide">
-          <!-- <img src="mobile_image/ep_arrow-up-bold.svg" /> -->
-        </button>
-        <button class="ArrowSlide2 ArrowSlide">
-          <!-- <img src="mobile_image/arrow.svg" /> -->
-        </button>
-      </div>
-      <div class="eclipses">
-        <div class="eclipses1"></div>
-
-        <div class="eclipses2"></div>
-
-        <div class="eclipses3"></div>
-      </div>
-      <button>
-        <img src="img/arrow.svg" alt="arrow" />
-        <span>Find More</span>
-      </button>
-    </section>
-    <section class="stories" id="storiesID">
-      <h2>TRAVEL STORIES</h2>
-      <div class="storiesdiv">
-        <div>
-          <div class="story1 story">
-            <div class="ImageStoriesTaihaland ImgStories"></div>
-            <div class="StoryText">
-              <h3 class="H3Stories">10 Photos of Attractive Thailand</h3>
-              <p class="PStoriesPC">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit...
-              </p>
-              <p class="PStoriesMobile">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
-              </p>
-              <a href="#" class="AStories">Read More</a>
-            </div>
-          </div>
-          <div class="story2 story">
-            <div class="ImageStoriesUtah ImgStories"></div>
-            <div class="StoryText">
-              <h3 class="H3Stories">Canyonlands National Park, Utah</h3>
-              <p class="PStoriesPC">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit...
-              </p>
-              <p class="PStoriesMobile">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
-              </p>
-              <a href="#" class="AStories">Read More</a>
-            </div>
-          </div>
-          <div class="story3 story">
-            <div class="ImageStoriesMountains ImgStories"></div>
-            <div class="StoryText">
-              <h3 class="H3Stories">I left my heart in the Mountains!</h3>
-              <p class="PStoriesPC">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit...
-              </p>
-              <p class="PStoriesMobile">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
-              </p>
-              <a href="#" class="AStories">Read More</a>
-            </div>
-          </div>
-          <div class="story4 story">
-            <div class="ImageStoriesLongest ImgStories"></div>
-            <div class="StoryText">
-              <h3 class="H3Stories">The Longest journey in my life!</h3>
-              <p class="PStoriesPC">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.Lorem ipsum dolor sit amet,
-                consectetur adipiscing elit...
-              </p>
-              <p class="PStoriesMobile">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla.Lorem ipsum dolor sit a...
-              </p>
-              <a href="#" class="AStories">Read More</a>
-            </div>
-          </div>
-          <button>
-            <img src="img/arrow.svg" alt="arrow" />
-            <span>See More</span>
-          </button>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <a href="#"><img height="51" src="img/rs_school.svg" alt="logo rs school" /></a>
-    <a href="https://github.com/Evgenij-svg/rsschool-cv/tree/travel"><img height="51" src="img/github.svg"
-        alt="github" /></a>
-    <span> All Rights Reserved © Travel Portal </span>
-    <a href="#"><img src="img/instagram.svg" alt="instagram" /></a>
-    <a href="#"><img src="img/youtube.svg" alt="youtube" /></a>
-    <a href="#"><img src="img/twitter.svg" alt="twitter" /></a>
-  </footer>
-
-
-  <div class="PoPupRegandLogin">
-    <h3>Log in to your account</h3>
-    <button class="Facebook">
-      <div>
-        <img src='img/Facebook-icon.svg' />
-        <span>Sign In with Facebook</span>
-      </div>
-    </button>
-    <button class="Google">
-      <div>
-        <img src='img/Google_Logo.svg' />
-        <span>Sign In with Google</span>
-      </div>
-    </button>
-    <div class="title">
-      <div></div>
-      <span>or</span>
-      <div></div>
-    </div>
-    <form>
-      <div>
-        <span>E-mail</span>
-        <input id="inputEmail" type="email" />
-      </div>
-      <div class="Password">
-        <span>Password</span>
-        <input id="inputPassword" type="password" />
-      </div>
-      <button class="sign"><span>Sign In</span></button>
-      <a href="#">Forgot Your Password?</a>
-    </form>
-    <div class="RegWindow">
-      <span>Don’t have an account?</span>
-      <a href="#" class="Registor">Register</a>
     </div>
   </div>
+  <div class="flex">
+    <img src="svg/slider-prev.svg" class="SliderPrev" />
+    <div class="clock realotiv">
+      <span class="hours"></span>
+      <span class="minutes"></span>
+      <span class="second"></span>
+    </div>
+    <img src="svg/slider-next.svg" class="SliderNext" />
+  </div>
+  <div class="flex WelcomeDiv">
+    <span class="Welcome realotiv"></span>
+    <input type="text" class="Name Text"  />
+  </div>
+  <div class="quote realotiv">
+    <img src="svg/reload.svg" class="reload" style="display: none" height="32" />
+    <span class="Author">
 
-  <script src="scripts/index.js"></script>
+    </span>
+    <span class="Quote ">
+
+    </span>
+  </div>
+  <div class="Todolist">
+    <input type="text" class="WriteTodoList Text"/>
+    <button onclick="AddTask()">+</button>
+    <div class="Lists">
+
+    </div>
+  </div>
+  <img src="svg/gear.svg" class="parametrsImg" width="60px" />
+
+  <div class="parametrs" style="left:-800px">
+    <select name="language" class="language">
+      <option value="en" class="optionLanguage">en</option>
+      <option value="ru" class="optionLanguage">ru</option>
+    </select>
+
+    <div>
+      <input type="radio" name="IMG" value="0" checked>
+      <label for="contactChoice1">GithubIMG</label>
+
+      <input type="radio" name="IMG" value="1">
+      <label for="contactChoice2">UnsplashIMG</label>
+
+      <input type="radio" name="IMG" value="2">
+      <label for="contactChoice3">FlickrIMG</label>
+    </div>
+    <input type='text'  class="tags Text" />
+    <div>
+      <input type="checkbox" class="checkbox" name="a" value="Player" checked> <span class="LanguageParam">audio</span>
+      <input type="checkbox" class="checkbox" name="a" value="Calendar" checked> <span class="LanguageParam">Data</span>
+      <input type="checkbox" class="checkbox" name="a" value="Weather" checked> <span class="LanguageParam">Weather</span>
+    </div>
+    <div>
+      <input type="checkbox" class="checkbox" name="a" value="clock" checked><span class="LanguageParam"> Time</span>
+      <input type="checkbox" class="checkbox" name="a" value="Welcome" checked><span class="LanguageParam">Welcome</span>
+      <input type="checkbox" class="checkbox" name="a" value="quote" checked><span class="LanguageParam"> quote</span>
+    </div>
+  </div>
+  <script src="scripts/todolist.js"></script>
+  <script src="scripts/language.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/parametrs.js"></script>
+  <script src="scripts/audio.js"></script>
+  <script src="scripts/slider.js"></script>
+  <script src="scripts/quote.js" async></script>
+  <script src="scripts/Weather.js" async></script>
+
 </body>
 
 </html>
