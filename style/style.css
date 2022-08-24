@@ -4,7 +4,14 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     overflow: hidden;
+    
 }
+.realotiv{
+    position: relative;
+    transition: all 0.7s ease-in-out;
+
+}
+
 .clock{
     display: flex;
     flex-direction: row;
@@ -32,9 +39,16 @@ body{
 .Welcome{
     font-size: 40px;
     color: white;
-    width: max-content;
-    margin:  auto;
+    margin-left: 165px;
+
 }
+.WelcomeDiv{
+    width: max-content;
+    margin:0 auto;
+    height: 55px;
+}
+
+
 /* body{
     background-image: url(../img/bg.jpg);
 } */
@@ -87,7 +101,8 @@ body{
     text-shadow: 1px 1px 5px black;
 }
 
-.city{
+
+.Text{
     width: 170px;
     height: 34px;
     padding: 5px;
@@ -96,9 +111,27 @@ body{
     color: #fff;
     border: 0;
     outline: 0;
-    border-bottom: 1px solid #fff;
     background-color: transparent;
 }
+.city{
+    border-bottom: 1px solid #fff;
+}
+.Name{
+    margin-bottom: 10px;
+    height: 45px ;
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}
+.WriteTodoList{
+    margin: 0 auto;
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}
+.Todolist{
+   width: max-content;
+   margin: 0 auto;
+}
+
 .Weather{
     display:flex;
     flex-direction: column;
@@ -168,5 +201,21 @@ input::placeholder {
 }
 .reload{
     width: max-content;
+    
     margin: auto;
+}
+.parametrs{
+    position: absolute;
+    background-color: rgba(255,165,0,0.5);
+    border-radius:20px ;
+    transition: all 0.5s ;
+}
+.spanTask{
+    font-size: 25px;
+    color: white;
+}
+.deleteTask{
+    border: none;
+    background-color: transparent;
+
 }

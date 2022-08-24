@@ -10,9 +10,26 @@ const DayDock = document.querySelector('.Days');
 let Mounth, Day, DateD;
 
 const Welcome = document.querySelector('.Welcome');
+const Name = document.querySelector('.Name');
+Name.value=localStorage.getItem("name")
+if(Name.value==''){
+    Name.style.borderBottom="1px solid #fff"
+}else{
+    Name.style.borderBottom="none"
+}
 
-const Days = ['Воскресенье', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пяница', 'Субота']
-const Mounths = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
+if(Name.value==null){
+    Name.value='';
+    localStorage.setItem("name",Name.value)
+}
+Name.onblur=function(){
+    localStorage.setItem("name",Name.value)
+    if(Name.value==''){
+        Name.style.borderBottom="1px solid #fff"
+    }else{
+        Name.style.borderBottom="none"
+    }
+}
 
 function addZero(z) {
     return z > 9 ? z : '0' + z;
@@ -42,7 +59,6 @@ DateJsonLanguage.open('GET', '../translate/date.json');
 DateJsonLanguage.send();
 DateJsonLanguage.onload = function () {
     DateLanguage=JSON.parse(DateJsonLanguage.response);
-    console.log(DateLanguage);
     languageRUENflag=languageRUEN
 
     hours.innerHTML = addZero(date.getHours()) + ':';

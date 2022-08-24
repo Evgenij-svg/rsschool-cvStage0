@@ -17,13 +17,13 @@ if (city == null||city == ''||city == 'undefined') {
     city = 'Minsk';
 }
 InputCity.value = city;
-console.log(localStorage.getItem(1));
+
+
+
 const Weathers = new XMLHttpRequest();
 let OBJWeather;
 WeatherJsonLanguage.onload = function () {
     const WatherLanguage = JSON.parse(WeatherJsonLanguage.response);
-    console.log(WatherLanguage);
-
     let urlWeather = `http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
     
     // Формируем url для GET запроса
@@ -51,17 +51,27 @@ WeatherJsonLanguage.onload = function () {
     }
 
     Weathers.onload = function () {
+        if(Weathers.status==404||Weathers.status==400){
+            urlWeather = `http://api.openweathermap.org/data/2.5/weather?q=Minsk&lang=ru&units=metric&appid=${apiKey}`;
+            Weathers.open('GET', urlWeather);
+            Weathers.send();
+            InputCity.value='Minsk'
+            city="Minsk"
+            localStorage.setItem(1, city);
+            return
+        }
         OBJWeather = JSON.parse(Weathers.response);
         
+        localStorage.setItem(1, city);
         changeWeather()
-        console.log(OBJWeather);
+        // console.log(typeof OBJWeather);
     };
     InputCity.onblur = function () {
         city = InputCity.value;
-        localStorage.setItem(1, city);
         urlWeather = `http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
         Weathers.open('GET', urlWeather);
         Weathers.send();
+        
     };
     language.onchange = function () {
         changeWeather()
