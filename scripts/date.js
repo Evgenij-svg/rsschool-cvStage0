@@ -12,6 +12,10 @@ let Mounth, Day, DateD;
 const Welcome = document.querySelector('.Welcome');
 const Name = document.querySelector('.Name');
 Name.value=localStorage.getItem("name")
+
+
+
+
 if(Name.value==''){
     Name.style.borderBottom="1px solid #fff"
 }else{
