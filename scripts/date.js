@@ -59,7 +59,7 @@ if (hour > 17 && hour <= 23) {
 let DateLanguage;
 const DateJsonLanguage = new XMLHttpRequest();
 let languageRUENflag;
-DateJsonLanguage.open('GET', '../translate/date.json');
+DateJsonLanguage.open('GET', './translate/date.json');
 DateJsonLanguage.send();
 DateJsonLanguage.onload = function () {
     DateLanguage=JSON.parse(DateJsonLanguage.response);

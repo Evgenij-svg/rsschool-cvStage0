@@ -8,7 +8,7 @@ const InputCity = document.querySelector('.city');
 
 const WeatherJsonLanguage = new XMLHttpRequest();
 
-WeatherJsonLanguage.open('GET', '../translate/Weather.json');
+WeatherJsonLanguage.open('GET', './translate/Weather.json');
 WeatherJsonLanguage.send();
 
 let city;
