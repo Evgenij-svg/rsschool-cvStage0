@@ -11,7 +11,7 @@ let flagParametrs=false;
 let paramJsonLanguageOBj;
 
 const paramJsonLanguage = new XMLHttpRequest();
-paramJsonLanguage.open('GET', '../translate/parametrs.json');
+paramJsonLanguage.open('GET', './translate/parametrs.json');
 paramJsonLanguage.send();
 
 function languageparamfunc(){
