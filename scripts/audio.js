@@ -26,7 +26,7 @@ const PlaySong = document.querySelectorAll('.PlaySong');
 
 function loadSong() {
     audio.pause();
-    audio.src = `../audio/${song[songindex]}.mp3`;
+    audio.src = `audio/${song[songindex]}.mp3`;
     song.forEach((elem) => {
         const offSong = document.querySelector(`.${elem}`);
         offSong.classList.remove('titleSongNow');
@@ -44,14 +44,14 @@ PlayPause.onclick = function () {
     if (BoolPlayPause) {
         audio.play();
         PlaySong.forEach((elem) => {
-            elem.src = '../svg/play.svg';
+            elem.src = 'svg/play.svg';
         });
-        PlaySong[songindex].src = '../svg/pause.svg';
-        PlayPause.src = '../svg/pause.svg';
+        PlaySong[songindex].src = 'svg/pause.svg';
+        PlayPause.src = 'svg/pause.svg';
     } else {
         audio.pause();
-        PlaySong[songindex].src = '../svg/play.svg';
-        PlayPause.src = '../svg/play.svg';
+        PlaySong[songindex].src = 'svg/play.svg';
+        PlayPause.src = 'svg/play.svg';
     }
 };
 
@@ -86,12 +86,12 @@ function updateProgress(e) {
     Duration.innerHTML = Math.floor(duration);
     if (!audio.paused) {
         PlaySong.forEach((elem) => {
-            elem.src = '../svg/play.svg';
+            elem.src = 'svg/play.svg';
         });
-        PlaySong[songindex].src = '../svg/pause.svg';
+        PlaySong[songindex].src = 'svg/pause.svg';
     }else{
         PlaySong.forEach((elem) => {
-            elem.src = '../svg/play.svg';
+            elem.src = 'svg/play.svg';
         });
     }
 }
@@ -130,14 +130,14 @@ PlaySong.forEach((btn,ind)=>{
         if (BoolPlayPause) {
             audio.play();
             PlaySong.forEach((elem) => {
-                elem.src = '../svg/play.svg';
+                elem.src = 'svg/play.svg';
             });
-            PlaySong[songindex].src = '../svg/pause.svg';
-            PlayPause.src = '../svg/pause.svg';
+            PlaySong[songindex].src = 'svg/pause.svg';
+            PlayPause.src = 'svg/pause.svg';
         } else {
             audio.pause();
-            PlaySong[songindex].src = '../svg/play.svg';
-            PlayPause.src = '../svg/play.svg';
+            PlaySong[songindex].src = 'svg/play.svg';
+            PlayPause.src = 'svg/play.svg';
         }
     }
 })

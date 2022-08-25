@@ -2,6 +2,8 @@ const WriteTodoList = document.querySelector('.WriteTodoList');
 const Lists = document.querySelector('.Lists');
 let checkTodo;
 
+// let languageRUEN=localStorage.getItem(4);
+
 let TodoList = [];
 if (localStorage.getItem('Todo') != null) {
     TodoList = JSON.parse(localStorage.getItem('Todo'));
