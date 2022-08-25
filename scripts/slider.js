@@ -1,5 +1,5 @@
 const bodyImage = document.querySelector('body');
-bodyImage.style.backgroundImage = 'url(../img/bg.jpg)';
+bodyImage.style.backgroundImage = 'url(img/bg.jpg)';
 
 function getRandomArbitrary(min, max) {
     return Math.floor(Math.random() * (max - min) + min);

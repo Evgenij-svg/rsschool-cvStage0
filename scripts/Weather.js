@@ -24,7 +24,7 @@ const Weathers = new XMLHttpRequest();
 let OBJWeather;
 WeatherJsonLanguage.onload = function () {
     const WatherLanguage = JSON.parse(WeatherJsonLanguage.response);
-    let urlWeather = `http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
+    let urlWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
     
     // Формируем url для GET запроса
 
