@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo&family=Magra:wght@700&family=Red+Hat+Text&display=swap');
+
+* {
+    margin: auto;
+}
+
+h2 {
+    color: #f2785c;
+    font-family: 'Red Hat Text';
+    font-style: normal;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+.Brightness {
+    display: none;
+    position: absolute;
+    margin: 0;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(20, 20, 20, 0.1);
+    transition: all 0.5s;
+    left: 0;
+}
+
+body{
+    overflow-y: scroll;
+    max-width: 1440px;
+}
+
+
+@media (min-width: 391px) {
+    h2 {
+        font-weight: bolder;
+        font-size: 40px;
+        line-height: 53px;
+        /* identical to box height */
+    }
+
+    a {
+        cursor: pointer;
+        text-decoration: none;
+    }
+
+    button {
+        cursor: pointer;
+        
+    }
+
+}
+
+@media (max-width: 390px) {
+    h2 {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 19px;
+    }
+
+}

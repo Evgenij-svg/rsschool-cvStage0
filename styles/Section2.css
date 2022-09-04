@@ -1,0 +1,146 @@
+@media (min-width: 391px) {
+    .steps {
+        /*  margin: 0;*/
+        margin-top: 330px;
+
+        width: 1400px;
+    }
+
+    .steps > h2 {
+        width: 700px;
+        height: 53px;
+        margin-left: 395px;
+    }
+
+    .stepsSpan {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        color: #0d606f;
+        margin-top: 30px;
+        /*width: 100px;*/
+    }
+
+    .steps > div {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40px;
+    }
+
+    .stepsdiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Velo {
+        margin-right: 0px;
+        margin-left: 110px;
+    }
+
+    .Velo > img {
+        margin: 0;
+        width: 100px;
+        height: 100px;
+        margin-left: 75px;
+    }
+
+    .Calendar {
+        margin-right: 0px;
+        margin-left: 234px;
+    }
+
+    .Calendar > img {
+        margin: 0;
+        width: 100px;
+        height: 100px;
+        margin-left: 60px;
+    }
+
+    .Samalet {
+        margin-right: 0px;
+        margin-left: 159px;
+    }
+
+    .Samalet > img {
+        margin: 0;
+        width: 100px;
+        margin-left: 110px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 390px) {
+    .steps {
+        /*  margin: 0;*/
+        margin-top: 81px;
+        width: 390px;
+    }
+    .steps > h2 {
+        margin-left: 88;
+        width: 214px;
+        height: 19px;
+    }
+    .steps > div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stepsdiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stepsdiv > img {
+        width: 70px;
+        height: 70px;
+        border-radius: 16px;
+        margin-left: 0;
+    }
+    .Velo {
+        margin-top: 22px;
+        margin-left: 15px;
+    }
+    .Velo > span {
+        width: 94px;
+        height: 22px;
+        margin-top: 20px;
+    }
+    .Calendar {
+        margin-top: 22px;
+        margin-left: 12px;
+    }
+    .Calendar > span {
+        width: 120px;
+        height: 12px;
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    .Calendar > img {
+        margin-top: 0px;
+        margin-left: 22px;
+    }
+    .Samalet {
+        margin-top: 22px;
+        margin-left: 0px;
+    }
+    .Samalet > img {
+        margin-left: 26px;
+    }
+    .Samalet > span {
+        text-align: right;
+        width: 98px;
+        height: 24px;
+        margin-top: 21px;
+    }
+
+    .stepsSpan {
+        font-family: 'Aleo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+        color: #0d606f;
+    }
+}
