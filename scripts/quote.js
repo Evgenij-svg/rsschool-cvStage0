@@ -15,7 +15,7 @@ let quotes;
 
 function changeLanguageQuote () {
     if (languageRUEN == 'ru') {
-        requestURL = '../translate/quoteru.json';
+        requestURL = './translate/quoteru.json';
     } else {
         requestURL = 'https://www.breakingbadapi.com/api/quotes';
     }
