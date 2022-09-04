@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Momentum</title>
+  <link rel="stylesheet" href="style/style.css" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div class="flex">
+    <div class="Player realotiv">
+      <div class="arrowSong">
+        <img class="PrevSong" src="svg/play-prev.svg" />
+        <img class="Play" src="svg/play.svg" />
+        <img class="NextSong" src="svg/play-next.svg" />
+        <audio class="audio" src="audio/song1.mp3"></audio>
+      </div>
+      <span class="TitleSong"></span>
+      <div class="ContainerBar flex ">
+
+        <div class="TimeSong">
+          <span class="CurentTime"></span>
+          <span class="Duration"></span>
+        </div>
+        <div class="progressBar">
+          <div class="progress"></div>
+        </div>
+        <img src="svg/volume.svg" / height="20" class="img_volume">
+        <input class="jcpvolume" type="range" min="0" max="10" value="5" step="0.1" />
+
+      </div>
+      <div class="titlesSong"></div>
+
+    </div>
+    <div class="DataDay ">
+      <div class="Calendar realotiv">
+        <span class="Days"></span>
+        <span class="Date"></span>
+        <span class="Mounths"></span>
+      </div>
+      <div class="Weather realotiv">
+        <input type="text" class="city Text" value="Minsk">
+        <span class="TempAndWeather"></span>
+        <span class="WindSpeed"></span>
+        <span class="Humidity"></span>
+      </div>
+    </div>
+  </div>
+  <div class="flex">
+    <img src="svg/slider-prev.svg" class="SliderPrev" />
+    <div class="clock realotiv">
+      <span class="hours"></span>
+      <span class="minutes"></span>
+      <span class="second"></span>
+    </div>
+    <img src="svg/slider-next.svg" class="SliderNext" />
+  </div>
+  <div class="flex WelcomeDiv">
+    <span class="Welcome realotiv"></span>
+    <input type="text" class="Name Text"  />
+  </div>
+  <div class="quote realotiv">
+    <img src="svg/reload.svg" class="reload" style="display: none" height="32" />
+    <span class="Author">
+
+    </span>
+    <span class="Quote ">
+
+    </span>
+  </div>
+  <div class="Todolist">
+    <input type="text" class="WriteTodoList Text"/>
+    <button onclick="AddTask()">+</button>
+    <div class="Lists">
+
+    </div>
+  </div>
+  <img src="svg/gear.svg" class="parametrsImg" width="60px" />
+
+  <div class="parametrs" style="left:-800px">
+    <select name="language" class="language">
+      <option value="en" class="optionLanguage">en</option>
+      <option value="ru" class="optionLanguage">ru</option>
+    </select>
+
+    <div>
+      <input type="radio" name="IMG" value="0" checked>
+      <label for="contactChoice1">GithubIMG</label>
+
+      <input type="radio" name="IMG" value="1">
+      <label for="contactChoice2">UnsplashIMG</label>
+
+      <input type="radio" name="IMG" value="2">
+      <label for="contactChoice3">FlickrIMG</label>
+    </div>
+    <input type='text'  class="tags Text" />
+    <div>
+      <input type="checkbox" class="checkbox" name="a" value="Player" checked> <span class="LanguageParam">audio</span>
+      <input type="checkbox" class="checkbox" name="a" value="Calendar" checked> <span class="LanguageParam">Data</span>
+      <input type="checkbox" class="checkbox" name="a" value="Weather" checked> <span class="LanguageParam">Weather</span>
+    </div>
+    <div>
+      <input type="checkbox" class="checkbox" name="a" value="clock" checked><span class="LanguageParam"> Time</span>
+      <input type="checkbox" class="checkbox" name="a" value="Welcome" checked><span class="LanguageParam">Welcome</span>
+      <input type="checkbox" class="checkbox" name="a" value="quote" checked><span class="LanguageParam"> quote</span>
+    </div>
+  </div>
+  <script src="scripts/todolist.js"></script>
+  <script src="scripts/language.js"></script>
+  <script src="scripts/date.js"></script>
+  <script src="scripts/parametrs.js"></script>
+  <script src="scripts/audio.js"></script>
+  <script src="scripts/slider.js"></script>
+  <script src="scripts/quote.js" async></script>
+  <script src="scripts/Weather.js" async></script>
+</body>
+
+</html>

@@ -1,0 +1,221 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    overflow: hidden;
+    
+}
+.realotiv{
+    position: relative;
+    transition: all 0.7s ease-in-out;
+
+}
+
+.clock{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    margin:  auto;
+}
+.clock>span{
+    font-size: 72px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+}
+.Calendar{
+    display: flex;
+    flex-direction: row;
+    max-width: 420px;
+    width: 100%;
+    margin-left:auto;
+}
+.Calendar>span{
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 5px black;
+    
+}
+.Welcome{
+    font-size: 40px;
+    color: white;
+    margin-left: 165px;
+
+}
+.WelcomeDiv{
+    width: max-content;
+    margin:0 auto;
+    height: 55px;
+}
+
+
+/* body{
+    background-image: url(../img/bg.jpg);
+} */
+.Player{
+    width: 100%;
+    max-width:400px;
+}
+.arrowSong{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width:220px ;
+    width: 100%
+}
+.titlesSong{
+    display: flex;
+    flex-direction: column;
+}
+.titlesSong>div>span{
+    font-size: 30px;
+    color: rgba(255,255,255,0.5);
+    text-shadow: 1px 1px 5px black;
+    margin-right: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    
+}
+.SliderPrev{
+    margin-left: 120px;
+}
+.SliderNext{
+    margin-right: 120px;
+}
+.titleSongNow{
+    color:white !important;
+    text-shadow: 1px 1px 5px black;
+}
+.quote{
+    display: flex;
+    flex-direction: column;
+}
+.quote>span{
+    font-size: 20px;
+    color: white;
+    width: max-content;
+    margin:  auto;
+    text-shadow: 1px 1px 5px black;
+}
+
+
+.Text{
+    width: 170px;
+    height: 34px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.city{
+    border-bottom: 1px solid #fff;
+}
+.Name{
+    margin-bottom: 10px;
+    height: 45px ;
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}
+.WriteTodoList{
+    margin: 0 auto;
+    font-size: 30px;
+    border-bottom: 1px solid #fff;
+}
+.Todolist{
+   width: max-content;
+   margin: 0 auto;
+}
+
+.Weather{
+    display:flex;
+    flex-direction: column;
+}
+.Weather>span{
+    font-size: 20px;
+    color: white;
+    width: max-content;
+    text-shadow: 1px 1px 5px black;
+}
+.DataDay{
+    margin-left: auto;
+    margin-right: 30px;
+}
+body{
+    background: url() center/cover, rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    transition: background-image 1s ease-in-out;
+}
+input::placeholder {
+   color:white;
+   font-size: 20px;
+  }
+
+.progressBar{
+    max-width:220px ;
+    margin: 10px 0;
+    height: 10px;
+    width: 100%;
+    border: black 2px solid;
+    border-radius: 10px;
+
+}
+.progress{
+    height: 6px;
+    background-color: aqua;
+    border-radius: 6px;
+    margin: 2px 0;
+}
+
+.jcpvolume{
+    width: 100%;
+    max-width: 50px;
+}
+.img_volume{
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.TitleSong{
+    color:white;
+   font-size: 40px;
+   margin-left: 20%;
+}
+.ContainerBar{
+    margin-top: 0;
+}
+.TimeSong{
+    margin-top: 8px;
+    margin-left: 2px;
+    margin-right: 3px;
+}
+.TimeSong>span{
+    color:white;
+    font-size: 20px;
+    
+}
+.reload{
+    width: max-content;
+    
+    margin: auto;
+}
+.parametrs{
+    position: absolute;
+    background-color: rgba(255,165,0,0.5);
+    border-radius:20px ;
+    transition: all 0.5s ;
+}
+.spanTask{
+    font-size: 25px;
+    color: white;
+}
+.deleteTask{
+    border: none;
+    background-color: transparent;
+
+}

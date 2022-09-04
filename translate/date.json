@@ -1,0 +1,29 @@
+[
+    {
+        "ru":"Доброе утро",
+        "en":" Good morning"
+    },
+    {
+        "ru":"Спокойны ночи",
+        "en":"Good night"
+    },
+    {
+        "ru":"Добрый день",
+        "en":" Good afternoon"
+    },
+    {
+        "ru":"Добрый вечер",
+        "en":"Good evening"
+    },
+    {
+    "Date":{
+        "ru":["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пяница", "Субота"],
+        "en":["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+    },
+    "Mounth":{
+        "ru":["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь", "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"],
+        "en":["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    }
+
+    }
+]
