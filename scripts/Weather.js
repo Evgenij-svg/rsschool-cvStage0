@@ -52,7 +52,7 @@ WeatherJsonLanguage.onload = function () {
 
     Weathers.onload = function () {
         if(Weathers.status==404||Weathers.status==400){
-            urlWeather = `http://api.openweathermap.org/data/2.5/weather?q=Minsk&lang=ru&units=metric&appid=${apiKey}`;
+            urlWeather = `https://api.openweathermap.org/data/2.5/weather?q=Minsk&lang=ru&units=metric&appid=${apiKey}`;
             Weathers.open('GET', urlWeather);
             Weathers.send();
             InputCity.value='Minsk'
@@ -68,7 +68,7 @@ WeatherJsonLanguage.onload = function () {
     };
     InputCity.onblur = function () {
         city = InputCity.value;
-        urlWeather = `http://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
+        urlWeather = `https://api.openweathermap.org/data/2.5/weather?q=${city}&lang=ru&units=metric&appid=${apiKey}`;
         Weathers.open('GET', urlWeather);
         Weathers.send();
         
